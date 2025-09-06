@@ -19,9 +19,7 @@
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        <div class="contact-block">
+        <div>
         <h2>Tammy Bravo</h2>
         <p>Seismologist | Instructional Designer | Project Manager</p>
 
@@ -32,6 +30,8 @@
         <li><a href="https://github.com/tkbravo" target="_blank">GitHub</a></li>
         </ul>
         </div>
+        {% endif %}
+        
         {%- comment -%}
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
