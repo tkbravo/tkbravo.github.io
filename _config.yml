@@ -4,4 +4,4 @@ plugins:
 title: 
 name:
 show_downloads: false
-site.logo: NASATKB.jpg
+logo: /img/NASATKB.jpg
