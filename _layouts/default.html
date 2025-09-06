@@ -21,6 +21,18 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
+        <div class="contact-block">
+        <h2>Tammy Bravo</h2>
+        <p>Seismologist | Instructional Designer | Project Manager</p>
+
+        <h3>Contact Information</h3>
+        <ul>
+        <li>Email: <a href="mailto:tammy.bravo@colorado.edu">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/tammy-bravo-phd" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/tkbravo" target="_blank">GitHub</a></li>
+        </ul>
+        </div>
+        {%- comment -%}
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
@@ -30,6 +42,7 @@
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
+        {%- endcomment -%}
 
         {% if site.show_downloads %}
         <ul class="downloads">
