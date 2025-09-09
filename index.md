@@ -1,7 +1,10 @@
 <h2 style="color:#6f1802;">Portfolio</h2>
 ***
-<h3 style="margin-bottom:0;">Map from OpenStreetMap</h3>
-<p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#555;">
+<h3 style="margin-bottom:0; border-bottom:2px solid #a3310a; display:inline-block; padding-bottom:2px;">
+  Map from OpenStreetMap
+</h3>
+<br>
+<span style="font-size:0.85em; font-style:italic; color:#555;">
   8 September 2025
-</p>
+</span>
 <embed type="text/html" src="img/start.html" width="600" height="600">
