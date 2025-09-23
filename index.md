@@ -4,5 +4,5 @@
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   8 September 2025
 </p>
-The goal was to create an interactive map in Python. I chose to highlight Indiana University, mapped as the footprint of my professional origin.
+This interactive map in Python highlights the central campus of Indiana University in Bloomington, Indiana. The flagship campus of the IU system, it is a major public research institution, and the map shows its academic buildings, administrative areas, and green spaces.
 <embed type="text/html" src="img/start.html" width="600" height="600">
