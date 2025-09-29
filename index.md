@@ -1,6 +1,6 @@
 <h2 style="color:#6f1802;">Portfolio</h2>
 ***
-<h3 style="margin-bottom:0;">50+ Years of Temperature Data Show Warming in Portland, OR</h3>
+<h3 style="margin-bottom:0;">Warming Trend in Portland, OR (19</h3>
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   29 September 2025
 </p>
@@ -10,10 +10,10 @@ Portland’s proximity to the Pacific Ocean means its climate is strongly influe
 
 Background research on regional climate (ClimateStations, 2024) describes Portland’s climate as mild, with wet winters and dry summers, moderated by maritime influences. That Portland shows a persistent warming trend despite this moderation underscores the broader signal of climate change in the Pacific Northwest.
 
-![Portland Climate Plot](./img/portland_climate.png)
+![Portland Climate Plot](img/portland_climate.png)
 Figure 1. Annual average temperature at Troutdale, OR (NOAA GHCND Station USC00358634, 1967–2024) with linear regression trend line and 95% confidence interval.
 
-References
+<b>References</b>
 * ClimateStations. (2024). Portland, OR Climate Information. Retrieved from https://www.climatestations.com/portland-or/
 * NOAA Climate.gov. (2024). El Niño–Southern Oscillation (ENSO) Overview. Retrieved from https://www.climate.gov/enso
 * NOAA NCEI. (2024a). Global Historical Climatology Network Daily (GHCND): Troutdale, OR (USC00358634). National Centers for Environmental Information. Retrieved from https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USC00358634/detail
