@@ -10,17 +10,30 @@ Portland’s proximity to the Pacific Ocean means its climate is strongly influe
 
 Background research on regional climate (ClimateStations, 2024) describes Portland’s climate as mild, with wet winters and dry summers, moderated by maritime influences. That Portland shows a persistent warming trend despite this moderation underscores the broader signal of climate change in the Pacific Northwest.
 
-![Portland Climate Plot](img/Portland_climate.png)
-Figure 1. Annual average temperature at Troutdale, OR (NOAA GHCND Station USC00358634, 1967–2024) with linear regression trend line and 95% confidence interval.
+<figure style="margin:20px 0;">
+  <img src="img/Portland_climate.png" alt="Portland Climate Plot" style="max-width:100%; height:auto;">
+  <figcaption style="font-size:0.9em; color:#555;">
+    Figure 1. Annual average temperature in Portland, OR (NOAA GHCND Station USC00358634, 1959–2009) with linear regression trend line and 95% confidence interval.
+  </figcaption>
+</figure>
 
 <b>References</b>
-<ol style="margin-top:4px; font-size:0.9em; color:#555;">
-  <li>ClimateStations. (2024). Portland, OR Climate Information. Retrieved from https://www.climatestations.com/portland-or/</li>
-  <li>NOAA Climate.gov. (2024). El Niño–Southern Oscillation (ENSO) Overview. Retrieved from https://www.climate.gov/enso</li>
-  <li>NOAA NCEI. (2024a). Global Historical Climatology Network Daily (GHCND): Troutdale, OR (USC00358634). Retrieved from https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USC00358634/detail</li>
-  <li>NOAA NCEI. (2024b). Climate at a Glance: Global Time Series. Retrieved from https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/</li>
-  <li>NOAA PSL. (2024). Pacific Decadal Oscillation (PDO) Index. Retrieved from https://psl.noaa.gov/data/timeseries/IPDO/</li>
-</ol>
+<div style="margin-top:4px; font-size:0.9em; color:#555; line-height:1.5;">
+  ClimateStations. (2024). Portland, OR Climate Information. Retrieved from 
+  <a href="https://www.climatestations.com/portland-or/">https://www.climatestations.com/portland-or/</a><br>
+  
+  NOAA Climate.gov. (2024). El Niño–Southern Oscillation (ENSO) Overview. Retrieved from 
+  <a href="https://www.climate.gov/enso">https://www.climate.gov/enso</a><br>
+  
+  NOAA NCEI. (2024a). Global Historical Climatology Network Daily (GHCND): Troutdale, OR (USC00358634). Retrieved from 
+  <a href="https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USC00358634/detail">https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USC00358634/detail</a><br>
+  
+  NOAA NCEI. (2024b). Climate at a Glance: Global Time Series. Retrieved from 
+  <a href="https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/">https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/</a><br>
+  
+  NOAA PSL. (2024). Pacific Decadal Oscillation (PDO) Index. Retrieved from 
+  <a href="https://psl.noaa.gov/data/timeseries/IPDO/">https://psl.noaa.gov/data/timeseries/IPDO/</a>
+</div>
 
 <h3 style="margin-bottom:0;">Map from OpenStreetMap</h3>
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
