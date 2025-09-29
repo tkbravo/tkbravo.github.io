@@ -33,8 +33,8 @@ Background research on regional climate (ClimateStations, 2024) describes Portla
   
   NOAA PSL. (2024). Pacific Decadal Oscillation (PDO) Index. Retrieved from 
   <a href="https://psl.noaa.gov/data/timeseries/IPDO/">https://psl.noaa.gov/data/timeseries/IPDO/</a>
-</div>
-
+</div><br/>
+***
 <h3 style="margin-bottom:0;">Map from OpenStreetMap</h3>
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   8 September 2025
