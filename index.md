@@ -32,8 +32,8 @@ Background research on regional climate (ClimateStations, 2024) describes Portla
   <a href="https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/" target="_blank">https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/</a><br>
   
   NOAA PSL. (2024). Pacific Decadal Oscillation (PDO) Index. Retrieved from 
-  <a href="https://psl.noaa.gov/data/timeseries/IPDO/" target="_blank">https://psl.noaa.gov/data/timeseries/IPDO/</a>
-</div><br/>
+  <a href="https://www.ncei.noaa.gov/access/monitoring/pdo/)" target="_blank">https://www.ncei.noaa.gov/access/monitoring/pdo/</a>
+</div>
 
 ***
 
