@@ -19,6 +19,8 @@ Portland’s proximity to the Pacific Ocean means its climate is strongly influe
 
 Background research on regional climate (ClimateStations, 2024) describes Portland’s climate as mild, with wet winters and dry summers, moderated by maritime influences. That Portland shows a persistent warming trend despite this moderation underscores the broader signal of climate change in the Pacific Northwest.
 
+[View the full climate analysis](https://github.com/earthlab-education/02-climate-tkbravo/09_Portfolio_Climate_Portland.md)
+
 <b>References</b>
 <div style="margin-top:4px; font-size:0.9em; color:#555; line-height:1.5;">
   ClimateStations. (2024). Portland, OR Climate Information. Retrieved from 
