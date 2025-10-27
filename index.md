@@ -8,14 +8,27 @@ Using GBIF observations joined to EPA ecoregions, I mapped Veery (Catharus fusce
 
 Veery is primarily an eastern species. In the Pacific Northwest, and Portland specifically, it’s scarce and irregular. Local checklists show only occasional migrants, usually in riparian or forest patches during fall. In other words: Portland sits well outside the species’ core flyway, so most of the signal comes from the Upper Midwest and Northeast.
 
-<figure style="text-align:center;">
-  <embed type="text/html" src="img/migration.html" width="600" height="600">
+<figure style="text-align:center; margin:0 auto; width:600px;">
+  <div style="position:relative; width:600px; height:600px; overflow:hidden; margin:0 auto;">
+    <div style="
+      position:absolute; top:0; left:0;
+      width:900px; height:600px;              /* ← ORIGINAL width/height of the map */
+      transform:scale(0.6667);                /* ← 600 / 900 */
+      transform-origin: top left;
+    ">
+      <iframe
+        src="img/migration.html"
+        style="width:900px; height:600px; border:0;"
+        scrolling="no" loading="lazy"
+      ></iframe>
+    </div>
+  </div>
   <figcaption style="font-size:0.9em; color:#555; margin-top:6px;">
     <b>Figure 1</b>. Veery observations by ecoregion, filtered by month. Use the bottom slider to step through the calendar and compare spring vs. fall patterns.
   </figcaption>
 </figure>
 
-<b>Data & methods</b>
+<b>Data & methods</b><br/>
 GBIF occurrence data (tab-delimited CSV), EPA ecoregions, GeoPandas spatial join, monthly/ecoregion group-by, effort-normalized counts, and hvPlot/Panel for the interactive map.
 
 ***
