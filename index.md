@@ -29,7 +29,7 @@ Veery is primarily an eastern species. In the Pacific Northwest, and Portland sp
   </figcaption>
 </figure>
 
-<b>Data & methods</b><br/>
+<br/><b>Data & methods</b><br/>
 GBIF occurrence data (tab-delimited CSV), EPA ecoregions, GeoPandas spatial join, monthly/ecoregion group-by, effort-normalized counts, and hvPlot/Panel for the interactive map.
 
 ***
