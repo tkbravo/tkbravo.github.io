@@ -4,10 +4,8 @@
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   26 October 2025
 </p>
-  <img
-    src="img/Veery_in_CP_(43277).jpg" alt="Veery in Central Park by the Ramble Stone Arch. Source: Wikimedia" style="float:right; width:100px; height:auto; margin:0 0 6px 12px; border-radius:4px;"
-  >
-Using GBIF observations joined to EPA ecoregions, I mapped Veery (Catharus fuscescens) records by month and normalized counts for sampling effort. Two clear pulses show up: a spring push in May–June into the northern hardwoods and Great Lakes ecoregions, and a broader fall movement in August–October as birds head to South America. Normalizing by month and ecoregion helps reveal the underlying pattern despite uneven observer effort.
+<p><img src="img/Veery_in_CP_(43277).jpg" alt="Veery in Central Park by the Ramble Stone Arch. Source: Wikimedia" style="float:right; width:100px; height:auto; margin:0 0 6px 12px; border-radius:4px;">
+Using GBIF observations joined to EPA ecoregions, I mapped Veery (Catharus fuscescens) records by month and normalized counts for sampling effort. Two clear pulses show up: a spring push in May–June into the northern hardwoods and Great Lakes ecoregions, and a broader fall movement in August–October as birds head to South America. Normalizing by month and ecoregion helps reveal the underlying pattern despite uneven observer effort.</p>
 
 Veery is primarily an eastern species. In the Pacific Northwest, and Portland specifically, it’s scarce and irregular. Local checklists show only occasional migrants, usually in riparian or forest patches during fall. In other words: Portland sits well outside the species’ core flyway, so most of the signal comes from the Upper Midwest and Northeast.
 
