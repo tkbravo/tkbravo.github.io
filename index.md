@@ -16,7 +16,6 @@ Historically, the species nested in hollow old-growth snags, but many now use ch
           style="width:900px; height:900px; border:0; transform:scale(0.6667); transform-origin:top left;"
           title="Vaux's Swift Migration Map"></iframe>
 </div>
-
   <figcaption style="font-size:0.9em; color:#555; margin-top:6px;">
     <b>Figure 1</b>. Monthly observations of Vaux's Swifts by ecoregion, effort-normalized. Use the slider to compare northbound and southbound migration periods.
   </figcaption>
@@ -39,8 +38,11 @@ Using GBIF observations joined to EPA ecoregions, I mapped Veery (Catharus fusce
 
 Veery is primarily an eastern species. In the Pacific Northwest, and Portland specifically, it’s scarce and irregular. Local checklists show only occasional migrants, usually in riparian or forest patches during fall. In other words: Portland sits well outside the species’ core flyway, so most of the signal comes from the Upper Midwest and Northeast.
 
-<embed type="text/html" src="img/migration.html" width="600" height="600">
-
+<div style="width:600px; height:600px; overflow:hidden; position:relative;">
+  <iframe src="img/migration.html"
+          style="width:900px; height:900px; border:0; transform:scale(0.6667); transform-origin:top left;"
+          title="Vaux's Swift Migration Map"></iframe>
+</div>
   <figcaption style="font-size:0.9em; color:#555; margin-top:6px;">
     <b>Figure 1</b>. Veery observations by ecoregion, filtered by month. Use the bottom slider to step through the calendar and compare spring vs. fall patterns.
   </figcaption>
