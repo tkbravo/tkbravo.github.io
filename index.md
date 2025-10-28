@@ -1,5 +1,32 @@
 <h2 style="color:#6f1802;">Portfolio</h2>
 ***
+<h3 style="margin-bottom:0;">Vaux’s Swift Migration Along the Pacific Flyway (GBIF, 2023)</h3>
+<p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
+  28 October 2025
+</p>
+<p>
+Using GBIF occurrence records from 2023 joined to EPA ecoregions, I mapped Vaux’s swift (Chaetura vauxi) observations by month and normalized counts for sampling effort. The dataset captures the expected seasonal pattern, with northbound movements concentrated in April–May and southbound passage in August–September. Records cluster along the Pacific coast and lower Cascade ecoregions, consistent with known migration routes.</p>
+
+In the Pacific Northwest, large communal roosts, such as at Chapman Elementary in Portland, produce short-duration spikes in local detections each fall. Outside these migration periods, observations are limited, reflecting the species’ specialized roosting requirements and primarily aerial lifestyle.
+
+<iframe 
+  src="vaux_migration.html" 
+  width="600" 
+  height="450" 
+  style="border:none; overflow:hidden;" 
+  title="Vaux Migration Map">
+</iframe>
+
+  <figcaption style="font-size:0.9em; color:#555; margin-top:6px;">
+    <b>Figure 1</b>. Monthly observations of Vaux's Swifts by ecoregion, effort-normalized. Use the slider to compare northbound and southbound migration periods.
+  </figcaption>
+
+<br/><b>Data & methods</b><br/>
+GBIF occurrence data (tab-delimited CSV), EPA ecoregions, GeoPandas spatial join, monthly/ecoregion group-by, effort normalization, and hvPlot/Panel for visualization. Duplicate records and repeated checklist submissions were filtered to unique eventIDs per month and ecoregion to minimize oversampling at known roost locations.
+
+<b>Reference</b><br/>
+GBIF.org (28 October 2025) GBIF Occurrence Download https://doi.org/10.15468/dl.5x7k7q
+***
 <h3 style="margin-bottom:0;">Veery Migration Across North America (GBIF, 2023)</h3>
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   26 October 2025
@@ -9,25 +36,17 @@ Using GBIF observations joined to EPA ecoregions, I mapped Veery (Catharus fusce
 
 Veery is primarily an eastern species. In the Pacific Northwest, and Portland specifically, it’s scarce and irregular. Local checklists show only occasional migrants, usually in riparian or forest patches during fall. In other words: Portland sits well outside the species’ core flyway, so most of the signal comes from the Upper Midwest and Northeast.
 
-<figure style="text-align:center; margin:0 auto; width:600px;">
-  <div style="position:relative; width:600px; height:600px; overflow:hidden; margin:0 auto;">
-    <div style="
-      position:absolute; top:0; left:0;
-      width:900px; height:600px;              /* ← ORIGINAL width/height of the map */
-      transform:scale(0.6667);                /* ← 600 / 900 */
-      transform-origin: top left;
-    ">
-      <iframe
-        src="img/migration.html"
-        style="width:900px; height:600px; border:0;"
-        scrolling="no" loading="lazy"
-      ></iframe>
-    </div>
-  </div>
+<iframe 
+  src="migration.html" 
+  width="600" 
+  height="450" 
+  style="border:none; overflow:hidden;" 
+  title="Veery Migration Map">
+</iframe>
+
   <figcaption style="font-size:0.9em; color:#555; margin-top:6px;">
     <b>Figure 1</b>. Veery observations by ecoregion, filtered by month. Use the bottom slider to step through the calendar and compare spring vs. fall patterns.
   </figcaption>
-</figure>
 
 <br/><b>Data & methods</b><br/>
 GBIF occurrence data (tab-delimited CSV), EPA ecoregions, GeoPandas spatial join, monthly/ecoregion group-by, effort-normalized counts, and hvPlot/Panel for the interactive map.
