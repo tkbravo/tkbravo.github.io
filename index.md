@@ -11,7 +11,11 @@ Using GBIF occurrence records from 2023 joined to EPA ecoregions, I mapped Vauxâ
 
 Historically, the species nested in hollow old-growth snags, but many now use chimneys as substitutes. Once a suitable site is found, swifts often return year after year, clinging vertically to rest before resuming flight at dusk.
 
-<iframe src="img/vaux_migration.html" width="600" height="600" style="border:0" title="Vaux's Swift Migration Map"></iframe>
+<div style="width:600px; height:600px; overflow:hidden; position:relative;">
+  <iframe src="img/vaux_migration.html"
+          style="width:900px; height:900px; border:0; transform:scale(0.6667); transform-origin:top left;"
+          title="Vaux's Swift Migration Map"></iframe>
+</div>
 
   <figcaption style="font-size:0.9em; color:#555; margin-top:6px;">
     <b>Figure 1</b>. Monthly observations of Vaux's Swifts by ecoregion, effort-normalized. Use the slider to compare northbound and southbound migration periods.
