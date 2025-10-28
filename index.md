@@ -11,11 +11,12 @@ Using GBIF occurrence records from 2023 joined to EPA ecoregions, I mapped Vaux�
 
 Historically, the species nested in hollow old-growth snags, but many now use chimneys as substitutes. Once a suitable site is found, swifts often return year after year, clinging vertically to rest before resuming flight at dusk.
 
-<div style="width:600px; height:600px; overflow:hidden; position:relative;">
-  <iframe src="img/vaux_migration.html"
-          style="width:900px; height:900px; border:0; transform:scale(0.6667); transform-origin:top left;"
-          title="Vaux's Swift Migration Map"></iframe>
-</div>
+<iframe
+  src="img/vaux_migration.html"
+  style="width:900px; height:900px; border:0; transform:scale(0.6667); transform-origin:top left; display:block;"
+  title="Vaux's Swift Migration Map">
+</iframe>
+
   <figcaption style="font-size:0.9em; color:#555; margin-top:6px;">
     <b>Figure 1</b>. Monthly observations of Vaux's Swifts by ecoregion, effort-normalized. Use the slider to compare northbound and southbound migration periods.
   </figcaption>
@@ -23,7 +24,7 @@ Historically, the species nested in hollow old-growth snags, but many now use ch
 <br/><b>Data & methods</b><br/>
 GBIF occurrence data (tab-delimited CSV), EPA ecoregions, GeoPandas spatial join, monthly/ecoregion group-by, effort normalization, and hvPlot/Panel for visualization. Duplicate records and repeated checklist submissions were filtered to unique eventIDs per month and ecoregion to minimize oversampling at known roost locations.
 
-<b>Reference</b><br/>
+<b>References</b><br/>
 GBIF.org (28 October 2025) GBIF Occurrence Download https://doi.org/10.15468/dl.5x7k7q<br/>
 Bird Alliance of Oregon. (n.d.). Vaux’s Swifts. Retrieved October 28, 2025, from https://birdallianceoregon.org/our-work/rehabilitate-wildlife/having-a-wildlife-problem/vauxs-swifts/<br/>
 GBIF Secretariat. (n.d.). Chaetura vauxi (J.K. Townsend, 1839). Retrieved October 28, 2025, from https://www.gbif.org/species/5228612
@@ -38,11 +39,12 @@ Using GBIF observations joined to EPA ecoregions, I mapped Veery (Catharus fusce
 
 Veery is primarily an eastern species. In the Pacific Northwest, and Portland specifically, it’s scarce and irregular. Local checklists show only occasional migrants, usually in riparian or forest patches during fall. In other words: Portland sits well outside the species’ core flyway, so most of the signal comes from the Upper Midwest and Northeast.
 
-<div style="width:600px; height:600px; overflow:hidden; position:relative;">
-  <iframe src="img/migration.html"
-          style="width:900px; height:900px; border:0; transform:scale(0.6667); transform-origin:top left;"
-          title="Vaux's Swift Migration Map"></iframe>
-</div>
+<iframe
+  src="img/migration.html"
+  style="width:900px; height:900px; border:0; transform:scale(0.6667); transform-origin:top left; display:block;"
+  title="Veery Migration Map">
+</iframe>
+
   <figcaption style="font-size:0.9em; color:#555; margin-top:6px;">
     <b>Figure 1</b>. Veery observations by ecoregion, filtered by month. Use the bottom slider to step through the calendar and compare spring vs. fall patterns.
   </figcaption>
