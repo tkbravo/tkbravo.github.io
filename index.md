@@ -21,11 +21,11 @@ Historically, the species nested in hollow old-growth snags, but many now use ch
     </iframe>
   </div>
   <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
-    <b>Figure 1</b>. Monthly observations of Vaux's Swifts by ecoregion, effort-normalized. Use the slider to compare northbound and southbound migration periods.
+    <b>Figure 1</b>. Monthly observations of Vaux’s Swifts by ecoregion.
   </figcaption>
 </figure>
 
-<br/><b>Data & methods</b><br/>
+<b>Data & methods</b><br/>
 GBIF occurrence data (tab-delimited CSV), EPA ecoregions, GeoPandas spatial join, monthly/ecoregion group-by, effort normalization, and hvPlot/Panel for visualization. Duplicate records and repeated checklist submissions were filtered to unique eventIDs per month and ecoregion to minimize oversampling at known roost locations.
 
 <b>References</b><br/>
