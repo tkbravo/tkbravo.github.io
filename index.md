@@ -11,15 +11,19 @@ Using GBIF occurrence records from 2023 joined to EPA ecoregions, I mapped Vaux�
 
 Historically, the species nested in hollow old-growth snags, but many now use chimneys as substitutes. Once a suitable site is found, swifts often return year after year, clinging vertically to rest before resuming flight at dusk.
 
-<iframe
-  src="img/vaux_migration.html"
-  style="width:900px; height:900px; border:0; transform:scale(0.6667); transform-origin:top left; display:block;"
-  title="Vaux's Swift Migration Map">
-</iframe>
-
-  <figcaption style="font-size:0.9em; color:#555; margin-top:6px;">
+<figure style="width:600px; margin:0;">
+  <div style="width:600px; height:600px; overflow:hidden; line-height:0; font-size:0;">
+    <iframe
+      src="img/vaux_migration.html"
+      style="width:900px; height:900px; border:0; display:block;
+             transform:scale(0.6667); transform-origin:0 0; margin:0; padding:0;"
+      title="Vaux's Swift Migration Map">
+    </iframe>
+  </div>
+  <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
     <b>Figure 1</b>. Monthly observations of Vaux's Swifts by ecoregion, effort-normalized. Use the slider to compare northbound and southbound migration periods.
   </figcaption>
+</figure>
 
 <br/><b>Data & methods</b><br/>
 GBIF occurrence data (tab-delimited CSV), EPA ecoregions, GeoPandas spatial join, monthly/ecoregion group-by, effort normalization, and hvPlot/Panel for visualization. Duplicate records and repeated checklist submissions were filtered to unique eventIDs per month and ecoregion to minimize oversampling at known roost locations.
@@ -39,15 +43,19 @@ Using GBIF observations joined to EPA ecoregions, I mapped Veery (Catharus fusce
 
 Veery is primarily an eastern species. In the Pacific Northwest, and Portland specifically, it’s scarce and irregular. Local checklists show only occasional migrants, usually in riparian or forest patches during fall. In other words: Portland sits well outside the species’ core flyway, so most of the signal comes from the Upper Midwest and Northeast.
 
-<iframe
-  src="img/migration.html"
-  style="width:900px; height:900px; border:0; transform:scale(0.6667); transform-origin:top left; display:block;"
-  title="Veery Migration Map">
-</iframe>
-
-  <figcaption style="font-size:0.9em; color:#555; margin-top:6px;">
-    <b>Figure 1</b>. Veery observations by ecoregion, filtered by month. Use the bottom slider to step through the calendar and compare spring vs. fall patterns.
+<figure style="width:600px; margin:0;">
+  <div style="width:600px; height:600px; overflow:hidden; line-height:0; font-size:0;">
+    <iframe
+      src="img/migration.html"
+      style="width:900px; height:900px; border:0; display:block;
+             transform:scale(0.6667); transform-origin:0 0; margin:0; padding:0;"
+      title="Veery Migration Map">
+    </iframe>
+  </div>
+  <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
+    <b>Figure 1</b>.  Veery observations by ecoregion, filtered by month. Use the bottom slider to step through the calendar and compare spring vs. fall patterns.
   </figcaption>
+</figure>
 
 <br/><b>Data & methods</b><br/>
 GBIF occurrence data (tab-delimited CSV), EPA ecoregions, GeoPandas spatial join, monthly/ecoregion group-by, effort-normalized counts, and hvPlot/Panel for the interactive map.
