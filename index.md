@@ -1,6 +1,6 @@
 <h2 style="color:#6f1802;">Portfolio</h2>
 ***
-<h3 style="margin-bottom:0;">Veery Migration Across North America (GBIF, 2023–2025)</h3>
+<h3 style="margin-bottom:0;">Veery Migration Across North America (GBIF, 2017–2025)</h3>
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   26 October 2025
 </p>
