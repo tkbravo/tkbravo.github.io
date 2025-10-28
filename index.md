@@ -9,13 +9,7 @@ Using GBIF occurrence records from 2023 joined to EPA ecoregions, I mapped Vaux�
 
 In the Pacific Northwest, large communal roosts, such as at Chapman Elementary in Portland, produce short-duration spikes in local detections each fall. Outside these migration periods, observations are limited, reflecting the species’ specialized roosting requirements and primarily aerial lifestyle.
 
-<iframe 
-  src="vaux_migration.html" 
-  width="600" 
-  height="450" 
-  style="border:none; overflow:hidden;" 
-  title="Vaux Migration Map">
-</iframe>
+<embed type="text/html" src="vaux_migration.html" width="600" height="600">
 
   <figcaption style="font-size:0.9em; color:#555; margin-top:6px;">
     <b>Figure 1</b>. Monthly observations of Vaux's Swifts by ecoregion, effort-normalized. Use the slider to compare northbound and southbound migration periods.
@@ -36,13 +30,7 @@ Using GBIF observations joined to EPA ecoregions, I mapped Veery (Catharus fusce
 
 Veery is primarily an eastern species. In the Pacific Northwest, and Portland specifically, it’s scarce and irregular. Local checklists show only occasional migrants, usually in riparian or forest patches during fall. In other words: Portland sits well outside the species’ core flyway, so most of the signal comes from the Upper Midwest and Northeast.
 
-<iframe 
-  src="migration.html" 
-  width="600" 
-  height="450" 
-  style="border:none; overflow:hidden;" 
-  title="Veery Migration Map">
-</iframe>
+<embed type="text/html" src="migration.html" width="600" height="600">
 
   <figcaption style="font-size:0.9em; color:#555; margin-top:6px;">
     <b>Figure 1</b>. Veery observations by ecoregion, filtered by month. Use the bottom slider to step through the calendar and compare spring vs. fall patterns.
