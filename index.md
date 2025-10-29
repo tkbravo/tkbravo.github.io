@@ -11,45 +11,17 @@ Using GBIF occurrence records from 2023 joined to EPA ecoregions, I mapped Vaux�
 
 Historically, the species nested in hollow old-growth snags, but many now use chimneys as substitutes. Once a suitable site is found, swifts often return year after year, clinging vertically to rest before resuming flight at dusk.
 
-<figure id="swift-fig" style="width:600px; margin:0;">
-  <div id="swift-wrap" style="width:600px; height:600px; overflow:hidden; line-height:0; font-size:0; position:relative;">
-    <iframe id="swift-frame"
-      src="img/vaux_migration.html"
-      title="Vaux's Swift Migration Map"
-      style="border:0; display:block; position:absolute; top:0; left:0; transform-origin:0 0;">
-    </iframe>
-  </div>
+<iframe
+  src="img/vaux_migration.html"
+  width="600"
+  height="600"
+  style="border:0; display:block;"
+  title="Vaux's Swift Migration Map">
+</iframe>
+  
   <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
     <b>Figure 1</b>. Monthly observations of Vaux’s Swifts by ecoregion.
   </figcaption>
-</figure>
-
-<script>
-  (function () {
-    const wrap  = document.getElementById('swift-wrap');
-    const frame = document.getElementById('swift-frame');
-
-    frame.addEventListener('load', () => {
-      try {
-        // measure the iframe’s intrinsic content size
-        const doc   = frame.contentWindow.document;
-        const w     = Math.max(doc.documentElement.scrollWidth,  doc.body.scrollWidth);
-        const h     = Math.max(doc.documentElement.scrollHeight, doc.body.scrollHeight);
-
-        // set the iframe to its intrinsic size, then scale to fit the 600×600 wrapper
-        frame.style.width  = w + 'px';
-        frame.style.height = h + 'px';
-        const scale = Math.min(wrap.clientWidth / w, wrap.clientHeight / h);
-        frame.style.transform = 'scale(' + scale + ')';
-      } catch (e) {
-        // cross-origin? fall back to a conservative scale
-        frame.style.width  = '900px';
-        frame.style.height = '900px';
-        frame.style.transform = 'scale(0.66)'; // tweak if needed
-      }
-    });
-  })();
-</script>
 
 <b>Data & methods</b><br/>
 GBIF occurrence data (tab-delimited CSV), EPA ecoregions, GeoPandas spatial join, monthly/ecoregion group-by, effort normalization, and hvPlot/Panel for visualization. Duplicate records and repeated checklist submissions were filtered to unique eventIDs per month and ecoregion to minimize oversampling at known roost locations.
@@ -69,19 +41,17 @@ Using GBIF observations joined to EPA ecoregions, I mapped Veery (Catharus fusce
 
 Veery is primarily an eastern species. In the Pacific Northwest, and Portland specifically, it’s scarce and irregular. Local checklists show only occasional migrants, usually in riparian or forest patches during fall. In other words: Portland sits well outside the species’ core flyway, so most of the signal comes from the Upper Midwest and Northeast.
 
-<figure style="width:600px; margin:0;">
-  <div style="width:600px; height:600px; overflow:hidden; line-height:0; font-size:0;">
-    <iframe
-      src="img/migration.html"
-      style="width:900px; height:900px; border:0; display:block;
-             transform:scale(0.6667); transform-origin:0 0; margin:0; padding:0;"
-      title="Veery Migration Map">
-    </iframe>
-  </div>
+<iframe
+  src="img/migration.html"
+  width="600"
+  height="600"
+  style="border:0; display:block;"
+  title="Veery Migration Map">
+</iframe>
+
   <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
     <b>Figure 1</b>.  Veery observations by ecoregion, filtered by month. Use the bottom slider to step through the calendar and compare spring vs. fall patterns.
   </figcaption>
-</figure>
 
 <br/><b>Data & methods</b><br/>
 GBIF occurrence data (tab-delimited CSV), EPA ecoregions, GeoPandas spatial join, monthly/ecoregion group-by, effort-normalized counts, and hvPlot/Panel for the interactive map.
