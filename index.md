@@ -5,13 +5,13 @@
   28 October 2025
 </p>
 <p>
-Using the Global Biodiversity Information Facility (GBIF), an international network and data infrastructure that provides open access to data on all types of life on Earth, occurrence records from 2023 joined to EPA ecoregions, I mapped Vaux’s swift (Chaetura vauxi) observations by month and normalized counts for sampling effort. The dataset shows northbound movements in April–May and southbound passage in August–September, with concentrations along the Pacific coast and lower Cascade ecoregions, consistent with known migration routes.</p>
+Using occurrence records from 2023 available through the Global Biodiversity Information Facility (GBIF), I mapped Vaux’s swift (Chaetura vauxi) observations by month, joined to EPA ecoregions, and adjusted counts to account for uneven sampling effort. The results show northbound movements in April–May and southbound passage in August–September, with the highest concentrations along the Pacific coast and lower Cascade ecoregions, patterns consistent with the species’ known migration routes.</p>
 
-<p><img src="img/Vauxs-Swifts-Chapman-IMG_6065-SC-768x886.jpg" alt="Vauxs Swifts" title="Vaux's Swifts are a blur as they race to roost for the night inside a large, brick chimney at Chapman Elementary School in Portland, OR. (AP Photo/Don Ryan)" style="float:right; width:200px; height:auto; margin:0 0 6px 12px; border-radius:4px;">Vaux’s swifts spend nearly their entire lives in flight—feeding, drinking, courting, and even collecting nesting materials. During fall migration, thousands converge at communal roosts such as Portland’s Chapman Elementary School chimney, the largest known roost in the world. Each evening, flocks circle in tightening spirals before dropping inside to cling to the rough interior walls, where they rest through the night for warmth and protection. At dawn, the birds erupt back into the air and continue their southward journey to Central America and Venezuela.</p>
+<p><img src="img/Vauxs-Swifts-Chapman-IMG_6065-SC-768x886.jpg" alt="Vauxs Swifts" title="Vaux's Swifts are a blur as they race to roost for the night inside a large, brick chimney at Chapman Elementary School in Portland, OR. (AP Photo/Don Ryan)" style="float:right; width:200px; height:auto; margin:0 0 6px 12px; border-radius:4px;">Vaux’s swifts spend most of their lives aloft, feeding, drinking, courting, and even collecting nesting material in flight. During fall migration, thousands gather at communal roosts such as Portland’s Chapman Elementary School chimney, the largest known in the world. Each evening, flocks circle in tightening spirals before dropping inside to cling to the rough interior walls, where they roost overnight for warmth and safety. At dawn, the birds erupt back into the air and continue south toward Central America and Venezuela.</p>
 
-Historically, Vaux’s swifts nested and roosted in the hollow interiors of large old-growth trees. As those forests declined, they began using brick chimneys as structural substitutes, taking advantage of their similar enclosed shape and rough surfaces for clinging. Once a suitable chimney or snag is found, swifts often return to the same site year after year, using it as a temporary refuge during migration or for nesting in summer.
+Historically, the species nested in the hollow trunks of old-growth trees. As those forests declined, swifts began using brick chimneys as substitutes, taking advantage of their similar structure and rough surfaces for clinging. Once a suitable site is found, they often return year after year, using it for nesting in summer or as a temporary refuge during migration.
 
-The interactive map reveals a clear latitudinal shift between spring and fall months. Concentrations along coastal and Cascade ecoregions indicate that the Pacific Flyway serves as the primary migration corridor for this species. 
+The interactive map illustrates this seasonal rhythm, a clear north–south shift between spring and fall. Concentrations along coastal and Cascade ecoregions highlight the Pacific Flyway as the primary corridor for the species. 
 
 <p><b>Vaux’s Swift Migration 2023</b></p>
 <div style="width:600px; height:430px; overflow:hidden; line-height:0; margin:0;">
@@ -31,13 +31,13 @@ The interactive map reveals a clear latitudinal shift between spring and fall mo
 </div>
 
   <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
-    <b>Figure 1</b>. Monthly distribution of Chaetura vauxi observations across EPA ecoregions, normalized by sampling effort. Northbound migration peaks in April–May; southbound passage peaks in August–September.
+    <b>Figure 1</b>. Monthly distribution of Chaetura vauxi observations across EPA ecoregions, adjusted for sampling effort. Northbound migration peaks in April–May; southbound passage peaks in August–September.
   </figcaption>
 
-<br/>I selected 2023 data as a representative migration year with consistent observer coverage across the Pacific Flyway. EPA ecoregions were used to standardize geographic comparisons, and counts were normalized by observation effort to minimize bias in citizen-science data.
+<br/>I selected 2023 as a representative migration year with consistent observer coverage across the Pacific Flyway. EPA ecoregions provide a standardized spatial framework, and adjusting counts for effort helps reduce bias in citizen-science data.
 
 <b>Data & methods</b><br/>
-GBIF occurrence data (tab-delimited CSV), EPA ecoregions, GeoPandas spatial join, monthly/ecoregion group-by, effort normalization, and hvPlot/Panel for visualization. Duplicate records and repeated checklist submissions were filtered to unique eventIDs per month and ecoregion to minimize oversampling at known roost locations.
+GBIF occurrence data (tab-delimited CSV), EPA ecoregions, GeoPandas spatial join, monthly/ecoregion group-by, effort adjustment, and hvPlot/Panel for visualization. Duplicate records and repeated checklist submissions were filtered to unique eventIDs per month and ecoregion to minimize oversampling at known roost locations.
 
 <b>References</b><br/>
 GBIF.org (28 October 2025) GBIF Occurrence Download https://doi.org/10.15468/dl.5x7k7q<br/>
