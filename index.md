@@ -4,7 +4,7 @@
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   28 October 2025
 </p>
-<p>
+<p><img src="img/vaux.jpg" alt="Vaux" title="Image courtesy Steve Kolbe" style="float:left; width:200px; height:auto; margin:0 0 6px 12px; border-radius:4px;">
 Using occurrence records from 2023 available through the Global Biodiversity Information Facility (GBIF), I mapped Vaux’s swift (Chaetura vauxi) observations by month, joined to EPA ecoregions, and adjusted counts to account for uneven sampling effort. The results show northbound movements in April–May and southbound passage in August–September, with the highest concentrations along the Pacific coast and lower Cascade ecoregions, patterns consistent with the species’ known migration routes.</p>
 
 <p><img src="img/Vauxs-Swifts-Chapman-IMG_6065-SC-768x886.jpg" alt="Vauxs Swifts" title="Vaux's Swifts are a blur as they race to roost for the night inside a large, brick chimney at Chapman Elementary School in Portland, OR. (AP Photo/Don Ryan)" style="float:right; width:200px; height:auto; margin:0 0 6px 12px; border-radius:4px;">Vaux’s swifts spend most of their lives aloft, feeding, drinking, courting, and even collecting nesting material in flight. During fall migration, thousands gather at communal roosts such as Portland’s Chapman Elementary School chimney, the largest known in the world. Each evening, flocks circle in tightening spirals before dropping inside to cling to the rough interior walls, where they roost overnight for warmth and safety. At dawn, the birds erupt back into the air and continue south toward Central America and Venezuela.</p>
