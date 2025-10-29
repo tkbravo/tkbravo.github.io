@@ -11,6 +11,9 @@ Using the Global Biodiversity Information Facility (GBIF), an international netw
 
 Historically, Vaux’s swifts nested and roosted in the hollow interiors of large old-growth trees. As those forests declined, they began using brick chimneys as structural substitutes, taking advantage of their similar enclosed shape and rough surfaces for clinging. Once a suitable chimney or snag is found, swifts often return to the same site year after year, using it as a temporary refuge during migration or for nesting in summer.
 
+The interactive map reveals a clear latitudinal shift between spring and fall months. Concentrations along coastal and Cascade ecoregions indicate that the Pacific Flyway serves as the primary migration corridor for this species. I selected 2023 data as a representative migration year with consistent observer coverage across the Pacific Flyway. EPA ecoregions were used to standardize geographic comparisons, and counts were normalized by observation effort to minimize bias in citizen-science data.
+
+<p><b>Vaux’s Swift Migration 2023</b></p>
 <div style="width:600px; height:430px; overflow:hidden; line-height:0; margin:0;">
   <iframe
     src="img/vaux_migration.html"
@@ -28,7 +31,7 @@ Historically, Vaux’s swifts nested and roosted in the hollow interiors of larg
 </div>
 
   <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
-    <b>Figure 1</b>. Monthly observations of Vaux’s Swifts by ecoregion.
+    <b>Figure 1</b>. Monthly distribution of Chaetura vauxi observations across EPA ecoregions, normalized by sampling effort. Northbound migration peaks in April–May; southbound passage peaks in August–September.
   </figcaption>
 
 <br/><b>Data & methods</b><br/>
