@@ -7,11 +7,11 @@
 <p>
 Using GBIF occurrence records from 2023 joined to EPA ecoregions, I mapped Vaux’s swift (Chaetura vauxi) observations by month and normalized counts for sampling effort. The dataset shows northbound movements in April–May and southbound passage in August–September, with concentrations along the Pacific coast and lower Cascade ecoregions—consistent with known migration routes.</p>
 
-<p><img src="img/Vauxs-Swifts-Chapman-IMG_6065-SC-768x886.jpg" alt="Vauxs Swifts" title="Vaux's Swifts enter the Chapman Elementary School Chimney, Portland, OR, photo by Scott Carpenter" style="float:right; width:200px; height:auto; margin:0 0 6px 12px; border-radius:4px;">Vaux’s swifts are remarkable aerialists, spending nearly their entire lives in flight. They feed, drink, court, and collect nesting material in flight. Each fall, thousands gather at roosts such as Portland’s Chapman Elementary chimney, the largest known aggregation in the world, before continuing south to Central America and Venezuela.</p>
+<p><img src="img/Vauxs-Swifts-Chapman-IMG_6065-SC-768x886.jpg" alt="Vauxs Swifts" title="Vaux's Swifts enter the Chapman Elementary School Chimney, Portland, OR, photo by Scott Carpenter" style="float:right; width:200px; height:auto; margin:0 0 6px 12px; border-radius:4px;">Vaux’s swifts spend nearly their entire lives in flight—feeding, drinking, courting, and even collecting nesting materials on the wing. During fall migration, thousands converge at communal roosts such as Portland’s Chapman Elementary chimney, the largest known in the world. Each evening, flocks circle in tightening spirals before dropping inside to cling to the rough interior walls, where they rest through the night for warmth and protection. At dawn, the birds erupt back into the air and continue their southward journey to Central America and Venezuela.</p>
 
-Historically, the species nested in hollow old-growth snags, but many now use chimneys as substitutes. Once a suitable site is found, swifts often return year after year, clinging vertically to rest before resuming flight at dusk.
+Historically, Vaux’s swifts nested and roosted in the hollow interiors of large old-growth trees. As those forests declined, they began using brick chimneys as structural substitutes, taking advantage of their similar enclosed shape and rough surfaces for clinging. Once a suitable chimney or snag is found, swifts often return to the same site year after year, using it as a temporary refuge during migration or for nesting in summer.
 
-<div style="width:600px; height:440px; overflow:hidden; line-height:0; margin:0;">
+<div style="width:600px; height:430px; overflow:hidden; line-height:0; margin:0;">
   <iframe
     src="img/vaux_migration.html"
     title="Vaux's Swift Migration Map"
@@ -49,7 +49,7 @@ Using GBIF observations joined to EPA ecoregions, I mapped Veery (Catharus fusce
 
 Veery is primarily an eastern species. In the Pacific Northwest, and Portland specifically, it’s scarce and irregular. Local checklists show only occasional migrants, usually in riparian or forest patches during fall. In other words: Portland sits well outside the species’ core flyway, so most of the signal comes from the Upper Midwest and Northeast.
 
-<div style="width:600px; height:440px; overflow:hidden; line-height:0;">
+<div style="width:600px; height:430px; overflow:hidden; line-height:0;">
   <iframe
     src="img/migration.html"
     title="Veery Migration Map"
