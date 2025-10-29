@@ -11,7 +11,7 @@ Using GBIF occurrence records from 2023 joined to EPA ecoregions, I mapped Vaux�
 
 Historically, the species nested in hollow old-growth snags, but many now use chimneys as substitutes. Once a suitable site is found, swifts often return year after year, clinging vertically to rest before resuming flight at dusk.
 
-<div style="width:600px; overflow:hidden; line-height:0;">
+<div style="width:600px; height:529px; overflow:hidden; line-height:0; margin:0;">
   <iframe
     src="img/vaux_migration.html"
     title="Vaux's Swift Migration Map"
@@ -20,8 +20,9 @@ Historically, the species nested in hollow old-growth snags, but many now use ch
       height:942px;
       border:0;
       display:block;
-      transform:scale(0.562);   /* 600 / 1068 = 0.562 */
+      transform:scale(0.5618);
       transform-origin:0 0;
+      margin:0;
     ">
   </iframe>
 </div>
@@ -48,7 +49,7 @@ Using GBIF observations joined to EPA ecoregions, I mapped Veery (Catharus fusce
 
 Veery is primarily an eastern species. In the Pacific Northwest, and Portland specifically, it’s scarce and irregular. Local checklists show only occasional migrants, usually in riparian or forest patches during fall. In other words: Portland sits well outside the species’ core flyway, so most of the signal comes from the Upper Midwest and Northeast.
 
-<div style="width:600px; overflow:hidden; line-height:0;">
+<div style="width:600px; height:529px; overflow:hidden; line-height:0;">
   <iframe
     src="img/migration.html"
     title="Veery Migration Map"
