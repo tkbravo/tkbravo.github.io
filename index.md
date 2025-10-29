@@ -1,13 +1,13 @@
 <h2 style="color:#6f1802;">Portfolio</h2>
 ***
-<h3 style="margin-bottom:0;">Vaux’s Swift Migration Along the Pacific Flyway (GBIF, 2023)</h3>
+<h3 style="margin-bottom:0;">Vaux’s Swift Migration Along the Pacific Flyway (2023)</h3>
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   28 October 2025
 </p>
 <p>
-Using GBIF occurrence records from 2023 joined to EPA ecoregions, I mapped Vaux’s swift (Chaetura vauxi) observations by month and normalized counts for sampling effort. The dataset shows northbound movements in April–May and southbound passage in August–September, with concentrations along the Pacific coast and lower Cascade ecoregions—consistent with known migration routes.</p>
+Using GBIF, which stands for Global Biodiversity Information Facility, is an international network and data infrastructure that provides open access to data on all types of life on Earth, occurrence records from 2023 joined to EPA ecoregions, I mapped Vaux’s swift (Chaetura vauxi) observations by month and normalized counts for sampling effort. The dataset shows northbound movements in April–May and southbound passage in August–September, with concentrations along the Pacific coast and lower Cascade ecoregions, consistent with known migration routes.</p>
 
-<p><img src="img/Vauxs-Swifts-Chapman-IMG_6065-SC-768x886.jpg" alt="Vauxs Swifts" title="Vaux's Swifts are a blur as they race to roost for the night inside a large, brick chimney at Chapman Elementary School in Portland, OR. (AP Photo/Don Ryan)" style="float:right; width:200px; height:auto; margin:0 0 6px 12px; border-radius:4px;">Vaux’s swifts spend nearly their entire lives in flight—feeding, drinking, courting, and even collecting nesting materials on the wing. During fall migration, thousands converge at communal roosts such as Portland’s Chapman Elementary chimney, the largest known in the world. Each evening, flocks circle in tightening spirals before dropping inside to cling to the rough interior walls, where they rest through the night for warmth and protection. At dawn, the birds erupt back into the air and continue their southward journey to Central America and Venezuela.</p>
+<p><img src="img/Vauxs-Swifts-Chapman-IMG_6065-SC-768x886.jpg" alt="Vauxs Swifts" title="Vaux's Swifts are a blur as they race to roost for the night inside a large, brick chimney at Chapman Elementary School in Portland, OR. (AP Photo/Don Ryan)" style="float:right; width:200px; height:auto; margin:0 0 6px 12px; border-radius:4px;">Vaux’s swifts spend nearly their entire lives in flight—feeding, drinking, courting, and even collecting nesting materials. During fall migration, thousands converge at communal roosts such as Portland’s Chapman Elementary School chimney, the largest known roost in the world. Each evening, flocks circle in tightening spirals before dropping inside to cling to the rough interior walls, where they rest through the night for warmth and protection. At dawn, the birds erupt back into the air and continue their southward journey to Central America and Venezuela.</p>
 
 Historically, Vaux’s swifts nested and roosted in the hollow interiors of large old-growth trees. As those forests declined, they began using brick chimneys as structural substitutes, taking advantage of their similar enclosed shape and rough surfaces for clinging. Once a suitable chimney or snag is found, swifts often return to the same site year after year, using it as a temporary refuge during migration or for nesting in summer.
 
@@ -40,12 +40,12 @@ Bird Alliance of Oregon. (n.d.). Vaux’s Swifts. Retrieved October 28, 2025, fr
 GBIF Secretariat. (n.d.). Chaetura vauxi (J.K. Townsend, 1839). Retrieved October 28, 2025, from https://www.gbif.org/species/5228612
 
 ***
-<h3 style="margin-bottom:0;">Veery Migration Across North America (GBIF, 2023)</h3>
+<h3 style="margin-bottom:0;">Veery Migration Across North America (2023)</h3>
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   26 October 2025
 </p>
 <p><img src="img/Veery_in_CP_(43277).jpg" alt="Veery" title="Veery in Central Park by the Ramble Stone Arch. Source: Wikimedia" style="float:right; width:200px; height:auto; margin:0 0 6px 12px; border-radius:4px;">
-Using GBIF observations joined to EPA ecoregions, I mapped Veery (Catharus fuscescens) records by month and normalized counts for sampling effort. Two clear pulses show up: a spring push in May–June into the northern hardwoods and Great Lakes ecoregions, and a broader fall movement in August–October as birds head to South America. Normalizing by month and ecoregion helps reveal the underlying pattern despite uneven observer effort.</p>
+Using Global Biodiversity Information Facility (GBIF) observations joined to EPA ecoregions, I mapped Veery (Catharus fuscescens) records by month and normalized counts for sampling effort. Two clear pulses show up: a spring push in May–June into the northern hardwoods and Great Lakes ecoregions, and a broader fall movement in August–October as birds head to South America. Normalizing by month and ecoregion helps reveal the underlying pattern despite uneven observer effort.</p>
 
 Veery is primarily an eastern species. In the Pacific Northwest, and Portland specifically, it’s scarce and irregular. Local checklists show only occasional migrants, usually in riparian or forest patches during fall. In other words: Portland sits well outside the species’ core flyway, so most of the signal comes from the Upper Midwest and Northeast.
 
