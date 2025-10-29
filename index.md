@@ -34,9 +34,9 @@ The interactive map reveals a clear latitudinal shift between spring and fall mo
     <b>Figure 1</b>. Monthly distribution of Chaetura vauxi observations across EPA ecoregions, normalized by sampling effort. Northbound migration peaks in April–May; southbound passage peaks in August–September.
   </figcaption>
 
-<p>I selected 2023 data as a representative migration year with consistent observer coverage across the Pacific Flyway. EPA ecoregions were used to standardize geographic comparisons, and counts were normalized by observation effort to minimize bias in citizen-science data.</p>
+<br/><p>I selected 2023 data as a representative migration year with consistent observer coverage across the Pacific Flyway. EPA ecoregions were used to standardize geographic comparisons, and counts were normalized by observation effort to minimize bias in citizen-science data.</p>
 
-<br/><b>Data & methods</b><br/>
+<b>Data & methods</b><br/>
 GBIF occurrence data (tab-delimited CSV), EPA ecoregions, GeoPandas spatial join, monthly/ecoregion group-by, effort normalization, and hvPlot/Panel for visualization. Duplicate records and repeated checklist submissions were filtered to unique eventIDs per month and ecoregion to minimize oversampling at known roost locations.
 
 <b>References</b><br/>
