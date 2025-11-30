@@ -1,4 +1,26 @@
 <h2 style="color:#6f1802;">Portfolio</h2>
+<h3 style="margin-bottom:0;">Vegetation Dynamics Across the Gila River Indian Community (GRIC):/nSeasonality and Stability in NDVI (2001–2023)</h3>
+<p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
+  30 November 2025
+</p>
+<p>Using a multiyear NDVI dataset clipped to the Gila River Indian Community (GRIC) boundary, I examined how vegetation greenness varies inside and outside the reservation. NDVI (Normalized Difference Vegetation Index) approximates vegetation vigor and canopy density. This analysis focuses on two questions: how vegetation behaves through the seasons (phenology) and how stable or variable it is from year to year.</p>
+<p><b>Seasonal Patterns</b></p>
+<p>Monthly NDVI values were averaged to create a typical annual cycle for both regions. Outside GRIC, the seasonal pattern shows a clear green-up during late winter and spring followed by a drop during the hottest months. Inside GRIC, the seasonal cycle is flatter with lower peak NDVI. This pattern is consistent with the drier vegetation types that dominate the reservation and the reduced surface water availability documented in the historical record.</p>
+  <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
+    <b>Figure 1</b>. Mean monthly NDVI inside and outside GRIC.</figcaption>
+<p><b>Year-to-Year Variability</b></p>
+<p>To assess stability, I calculated the variance of annual NDVI for each region. Areas outside GRIC show larger swings in greenness from year to year, which aligns with irrigation-supported agriculture and water-responsive vegetation. Inside GRIC, NDVI remains more consistent but at lower overall levels, a pattern typical of desert vegetation systems.</p>
+  <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
+    <b>Figure 2</b>. Annual NDVI variance for inside and outside GRIC.</figcaption>
+<p><b>Interpretation</b></p>
+<p>Together, the seasonal and variability patterns provide a view of how vegetation responds to long-term water conditions across the region. The lower seasonal amplitude and greater stability inside GRIC reflect drought-adapted vegetation and limited access to surface water. Outside GRIC, stronger seasonal pulses and higher variability are linked to irrigation and more water-responsive landscapes.</p>
+<p><b>Data and Methods</b></p>
+<p>MODIS and Planet NDVI composites (2001 to 2023), GRIC boundary polygons, GeoPandas clipping, group-by operations for monthly and annual summaries, and matplotlib for visualization.</p>
+<p><b>References</b></p>
+<p>Arizona State University Geography Alliance. The Gila River: A Story of Water and Change. https://geoalliance.asu.edu/sites/g/files/litvpz866/files/LessonFiles/Warren/River/WarrenRivS.pdf <br>
+USGS. Normalized Difference Vegetation Index (NDVI) Overview.<br/>
+MODIS Land Products. NASA LP DAAC.</p>
+
 ***
 <h3 style="margin-bottom:0;">Vaux’s Swift Migration Along the Pacific Flyway (2023)</h3>
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
