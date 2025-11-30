@@ -8,7 +8,7 @@
 Monthly NDVI averages show a clear difference between the two regions. Outside GRIC, vegetation is consistently greener, with mean NDVI values around 0.22–0.24 from May through August. Inside GRIC, NDVI is lower in all months (roughly 0.18–0.21) but follows a similar upward trend into late summer. This pattern suggests that vegetation outside the reservation, which includes more irrigated and developed land, maintains higher overall greenness than the drier, more sparsely vegetated lands inside GRIC.
 <p></p>
 <img src="img/figure1.png">
-  <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
+  <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
     <b>Figure 1</b>. Mean monthly NDVI for May–August inside and outside the Gila River Indian Community. Outside GRIC remains consistently greener, with slightly higher seasonal amplitude, while inside GRIC shows lower but parallel greening through late summer.</figcaption>
 <p></p>
 <b>Year-to-Year Variability</b><br/>
