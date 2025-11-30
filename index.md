@@ -45,38 +45,6 @@ Bird Alliance of Oregon. (n.d.). Vaux’s Swifts. Retrieved October 28, 2025, fr
 GBIF Secretariat. (n.d.). Chaetura vauxi (J.K. Townsend, 1839). Retrieved October 28, 2025, from <a href="https://www.gbif.org/species/5228612" target="_blank">https://www.gbif.org/species/5228612</a>
 
 ***
-<h3 style="margin-bottom:0;">Veery Migration Across North America (2023)</h3>
-<p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
-  26 October 2025
-</p>
-<p><img src="img/Veery_in_CP_(43277).jpg" alt="Veery" title="Veery in Central Park by the Ramble Stone Arch. Source: Wikimedia" style="float:right; width:200px; height:auto; margin:0 0 6px 12px; border-radius:4px;">
-Using Global Biodiversity Information Facility (GBIF) observations joined to EPA ecoregions, I mapped Veery (Catharus fuscescens) records by month and normalized counts for sampling effort. Two clear pulses show up: a spring push in May–June into the northern hardwoods and Great Lakes ecoregions, and a broader fall movement in August–October as birds head to South America. Normalizing by month and ecoregion helps reveal the underlying pattern despite uneven observer effort.</p>
-
-Veery is primarily an eastern species. In the Pacific Northwest, and Portland specifically, it’s scarce and irregular. Local checklists show only occasional migrants, usually in riparian or forest patches during fall. In other words: Portland sits well outside the species’ core flyway, so most of the signal comes from the Upper Midwest and Northeast.
-
-<div style="width:600px; height:430px; overflow:hidden; line-height:0;">
-  <iframe
-    src="img/migration.html"
-    title="Veery Migration Map"
-    style="
-      width:1068px;
-      height:942px;
-      border:0;
-      display:block;
-      transform:scale(0.562);   /* 600 / 1068 = 0.562 */
-      transform-origin:0 0;
-    ">
-  </iframe>
-</div>
-
-  <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
-    <b>Figure 1</b>.  Veery observations by ecoregion, filtered by month. Use the bottom slider to step through the calendar and compare spring vs. fall patterns.
-  </figcaption>
-
-<br/><b>Data & methods</b><br/>
-GBIF occurrence data (tab-delimited CSV), EPA ecoregions, GeoPandas spatial join, monthly/ecoregion group-by, effort-normalized counts, and hvPlot/Panel for the interactive map.
-
-***
 <h3 style="margin-bottom:0;">50 Years of Warming in Portland, OR (1959-2009)</h3>
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   29 September 2025
