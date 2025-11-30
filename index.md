@@ -1,5 +1,5 @@
 <h2 style="color:#6f1802;">Portfolio</h2>
-<h3 style="margin-bottom:0;">Vegetation Dynamics Across the Gila River Indian Community (GRIC):</br> 
+<h3 style="margin-bottom:0;">Vegetation Dynamics Across the Gila River Indian Community (GRIC):
 Seasonality and Stability in NDVI (2001–2023)</h3>
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   30 November 2025
