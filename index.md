@@ -1,11 +1,12 @@
 <h2 style="color:#6f1802;">Portfolio</h2>
-<h3 style="margin-bottom:0;">NDVI Seasonality and Variability Across the Gila River Indian Community (2001–2023)</h3>
+<h3 style="margin-bottom:0;">NDVI Seasonality and Variability Across the Gila River Indian Community (2001–2022)</h3>
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   30 November 2025
 </p>
 <p>Using a multiyear NDVI dataset clipped to the Gila River Indian Community (GRIC) boundary, I examined how vegetation greenness varies inside and outside the reservation. NDVI (Normalized Difference Vegetation Index) approximates vegetation vigor and canopy density. This analysis focuses on two questions: how vegetation behaves through the seasons (phenology) and how stable or variable it is from year to year.</p>
 <b>Seasonal Patterns</b><br/>
 Monthly NDVI averages show a clear difference between the two regions. Outside GRIC, vegetation is consistently greener, with mean NDVI values around 0.22–0.24 from May through August. Inside GRIC, NDVI is lower in all months (roughly 0.18–0.21) but follows a similar upward trend into late summer. This pattern suggests that vegetation outside the reservation, which includes more irrigated and developed land, maintains higher overall greenness than the drier, more sparsely vegetated lands inside GRIC.
+<p></p>
 <img src="img/figure1.png">
   <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
     <b>Figure 1</b>. Mean monthly NDVI for May–August inside and outside the Gila River Indian Community. Outside GRIC remains consistently greener, with slightly higher seasonal amplitude, while inside GRIC shows lower but parallel greening through late summer.</figcaption>
@@ -14,10 +15,11 @@ Monthly NDVI averages show a clear difference between the two regions. Outside G
 Year-to-year NDVI variability shows a generally stable pattern inside and outside GRIC from 2001 through 2020. Variance values remain very low for both regions, which is characteristic of arid landscapes with sparse perennial vegetation.
   
 In 2021, both regions exhibit a sharp increase in NDVI variance, with a larger jump inside GRIC. This spike likely reflects a combination of environmental and data-related factors. Much of central and southern Arizona experienced an extreme drought that year, as documented by NOAA’s National Integrated Drought Information System (NIDIS), which reported widespread severe to exceptional drought conditions across the state in 2021. Patchy vegetation responses to limited monsoon rains can create large spatial contrasts that raise NDVI variance. Outside GRIC, where vegetation includes a mix of irrigated fields and natural desert, the increase is noticeable but smaller.
+<p></p>
 <img src="img/figure2.png">
   <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
     <b>Figure 2</b>. Year-to-year NDVI variance for inside and outside GRIC. Both regions show low interannual variability from 2001 to 2020. Variance rises sharply in 2021, especially inside GRIC, likely reflecting spatially uneven vegetation responses during a drought year. Variability declines again in 2022.</figcaption>
-<p><br/></p>  
+<p></p>  
 Variance decreases again in 2022, returning closer to long-term levels. Taken together, the long-term pattern shows that vegetation inside GRIC is generally less variable from year to year than vegetation in surrounding areas, except during years of substantial climate stress.
 <p></p>
 <b>Interpretation</b><br/>
