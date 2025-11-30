@@ -24,7 +24,8 @@ Variance decreases again in 2022, returning closer to long-term levels. Taken to
 <p><b>Data and Methods</b></p>
 <p>MODIS and Planet NDVI composites (2001 to 2023), GRIC boundary polygons, GeoPandas clipping, group-by operations for monthly and annual summaries, and matplotlib for visualization.</p>
 <p><b>References</b></p>
-<p>Arizona State University Geography Alliance. The Gila River: A Story of Water and Change. https://geoalliance.asu.edu/sites/g/files/litvpz866/files/LessonFiles/Warren/River/WarrenRivS.pdf <br>
+<p>Arizona State University Geography Alliance. The Gila River: A Story of Water and Change. <a href="https://geoalliance.asu.edu/sites/g/files/litvpz866/files/LessonFiles/Warren/River/WarrenRivS.pdf" target="_blank">https://geoalliance.asu.edu/sites/g/files/litvpz866/files/LessonFiles/Warren/River/WarrenRivS.pdf</a>
+National Integrated Drought Information System <a href="https://www.drought.gov/news/new-noaa-report-exceptional-southwest-drought-exacerbated-human-caused-warming" target="_blank">https://www.drought.gov/news/new-noaa-report-exceptional-southwest-drought-exacerbated-human-caused-warming</a>
 USGS. Normalized Difference Vegetation Index (NDVI) Overview.<br/>
 MODIS Land Products. NASA LP DAAC.</p>
 
