@@ -1,5 +1,6 @@
 <h2 style="color:#6f1802;">Portfolio</h2>
-<h3 style="margin-bottom:0;">Vegetation Dynamics Across the Gila River Indian Community (GRIC):/nSeasonality and Stability in NDVI (2001–2023)</h3>
+<h3 style="margin-bottom:0;">Vegetation Dynamics Across the Gila River Indian Community (GRIC):</br> 
+Seasonality and Stability in NDVI (2001–2023)</h3>
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   30 November 2025
 </p>
@@ -7,11 +8,11 @@
 <p><b>Seasonal Patterns</b></p>
 <p>Monthly NDVI values were averaged to create a typical annual cycle for both regions. Outside GRIC, the seasonal pattern shows a clear green-up during late winter and spring followed by a drop during the hottest months. Inside GRIC, the seasonal cycle is flatter with lower peak NDVI. This pattern is consistent with the drier vegetation types that dominate the reservation and the reduced surface water availability documented in the historical record.</p>
   <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
-    <b>Figure 1</b>. Mean monthly NDVI inside and outside GRIC.</figcaption>
+    <b>Figure 1</b>. Mean monthly NDVI inside and outside GRIC.</figcaption></br>
 <p><b>Year-to-Year Variability</b></p>
 <p>To assess stability, I calculated the variance of annual NDVI for each region. Areas outside GRIC show larger swings in greenness from year to year, which aligns with irrigation-supported agriculture and water-responsive vegetation. Inside GRIC, NDVI remains more consistent but at lower overall levels, a pattern typical of desert vegetation systems.</p>
   <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
-    <b>Figure 2</b>. Annual NDVI variance for inside and outside GRIC.</figcaption>
+    <b>Figure 2</b>. Annual NDVI variance for inside and outside GRIC.</figcaption></br>
 <p><b>Interpretation</b></p>
 <p>Together, the seasonal and variability patterns provide a view of how vegetation responds to long-term water conditions across the region. The lower seasonal amplitude and greater stability inside GRIC reflect drought-adapted vegetation and limited access to surface water. Outside GRIC, stronger seasonal pulses and higher variability are linked to irrigation and more water-responsive landscapes.</p>
 <p><b>Data and Methods</b></p>
