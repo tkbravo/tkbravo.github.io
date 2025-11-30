@@ -9,7 +9,7 @@ Seasonality and Stability in NDVI (2001–2023)</h3>
 <p>Monthly NDVI averages show a clear difference between the two regions. Outside GRIC, vegetation is consistently greener, with mean NDVI values around 0.22–0.24 from May through August. Inside GRIC, NDVI is lower in all months (roughly 0.18–0.21) but follows a similar upward trend into late summer. This pattern suggests that vegetation outside the reservation, which includes more irrigated and developed land, maintains higher overall greenness than the drier, more sparsely vegetated lands inside GRIC.</p>
 <p><img src="img/figure1.png"></p>
   <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
-    <b>Figure 1</b>. Mean monthly NDVI for May–August inside and outside the Gila River Indian Community. Outside GRIC remains consistently greener, with slightly higher seasonal amplitude, while inside GRIC shows lower but parallel greening through late summer.</figcaption></br>
+    <b>Figure 1</b>. Mean monthly NDVI for May–August inside and outside the Gila River Indian Community. Outside GRIC remains consistently greener, with slightly higher seasonal amplitude, while inside GRIC shows lower but parallel greening through late summer.</figcaption>
 <p><b>Year-to-Year Variability</b></p>
 <p>Year-to-year NDVI variability shows a generally stable pattern inside and outside GRIC from 2001 through 2020. Variance values remain very low for both regions, which is characteristic of arid landscapes with sparse perennial vegetation.
 
@@ -18,7 +18,7 @@ In 2021, both regions exhibit a sharp increase in NDVI variance, with a larger j
 Variance decreases again in 2022, returning closer to long-term levels. Taken together, the long-term pattern shows that vegetation inside GRIC is generally less variable from year to year than vegetation in surrounding areas, except during years of substantial climate stress.</p>
 <p><img src="img/figure2.png"></p>
   <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
-    <b>Figure 2</b>. Year-to-year NDVI variance for inside and outside GRIC. Both regions show low interannual variability from 2001 to 2020. Variance rises sharply in 2021, especially inside GRIC, likely reflecting spatially uneven vegetation responses during a drought year. Variability declines again in 2022.</figcaption></br>
+    <b>Figure 2</b>. Year-to-year NDVI variance for inside and outside GRIC. Both regions show low interannual variability from 2001 to 2020. Variance rises sharply in 2021, especially inside GRIC, likely reflecting spatially uneven vegetation responses during a drought year. Variability declines again in 2022.</figcaption>
 <p><b>Interpretation</b></p>
 <p>Together, the seasonal and variability patterns provide a view of how vegetation responds to long-term water conditions across the region. The lower seasonal amplitude and greater stability inside GRIC reflect drought-adapted vegetation and limited access to surface water. Outside GRIC, stronger seasonal pulses and higher variability are linked to irrigation and more water-responsive landscapes.</p>
 <p><b>Data and Methods</b></p>
