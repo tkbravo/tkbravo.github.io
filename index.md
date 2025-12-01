@@ -26,6 +26,7 @@ Variance decreases again in 2022, returning closer to long-term levels. Taken to
 Together, the seasonal and variability patterns provide a view of how vegetation responds to long-term water conditions across the region. The lower seasonal amplitude and greater stability inside GRIC reflect drought-adapted vegetation and limited access to surface water. Outside GRIC, stronger seasonal pulses and higher variability are linked to irrigation and more water-responsive landscapes.
 
 <b>Data and Methods</b><br/>
+The dataset available for this exercise contained NDVI scenes from May through August for each year, which represent the primary growing season in this region. Seasonal patterns are interpreted within this time window.
 MODIS NDVI composites (2001 to 2022), GRIC boundary polygons, GeoPandas clipping, group-by operations for monthly and annual summaries, and matplotlib for visualization.
 
 <b>References</b><br/>
