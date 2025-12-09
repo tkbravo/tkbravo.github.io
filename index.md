@@ -17,7 +17,7 @@ NDVI is widely used for vegetation monitoring because it reflects canopy density
 <b>Research Question</b><br/>
 How much vegetation was lost during the Eagle Creek Fire, and how has NDVI changed inside the burn perimeter relative to the surrounding Hatfield Wilderness from 2014 to 2024?
 
-<b>Data and Methods</b><br/>
+<b>Data and Methods</b>
 <ul><li>NDVI Data: MODIS MOD13Q1.061, 250 meter resolution, August composites for 2014 to 2024.</li>
 <li>Burn Perimeter: MTBS 2017 Eagle Creek Fire boundary.</li>
 <li>Comparison Region: 3 km outside ring intersected with the Hatfield Wilderness polygon.</li></ul>
@@ -26,6 +26,7 @@ For each year, NDVI values were clipped to both regions, and mean NDVI was calcu
 <ul><li>NDVI difference for 2018 minus 2016, which represents immediate post-fire vegetation loss.</li>
 <li>NDVI difference for 2024 minus 2016, which reflects longer-term recovery.</li></ul>
 To measure recovery within the burned area, I computed a pixel-wise recovery ratio:
+
 <img src="img/fig7.png">
 
 A ratio near 1 represents NDVI returning to pre-fire levels and a ratio near 0 represents limited recovery.
@@ -35,10 +36,8 @@ A ratio near 1 represents NDVI returning to pre-fire levels and a ratio near 0 r
   <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
     <b>Figure 1: Time Series for 2014 to 2024</b> Before the fire, from 2014 to 2016, NDVI was higher inside the MTBS perimeter because of dense conifer canopy. In 2018, NDVI dropped sharply inside the perimeter. From 2019 to 2024, NDVI increased gradually. NDVI in the outside region remained nearly constant through the entire period.</figcaption>
 
-<b>Why Pre-fire NDVI Is Higher Inside the Burn Perimeter</b><br/>
+<br/><b>Why Pre-fire NDVI Is Higher Inside the Burn Perimeter</b><br/>
 Before the fire, NDVI inside the MTBS perimeter was consistently higher, around 0.86 to 0.88, than in the outside ring, which averaged around 0.79 to 0.81. This pattern is expected because dense conifer canopy maintains high late-summer NDVI, shaded terrain retains strong greenness, and the outside ring includes vegetation types that tend to show lower August NDVI values.
-
-These differences confirm that pre-fire NDVI variation reflects underlying ecology rather than artifacts of processing.
 
 <img src="img/fig2.png">
   <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
@@ -50,7 +49,7 @@ These differences confirm that pre-fire NDVI variation reflects underlying ecolo
   <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
     <b>Figure 4: Recovery Ratio Map</b> NDVI recovery ratio for the Eagle Creek Fire area. Dark green values near 1.0 indicate substantial recovery toward pre-fire greenness. Light yellow values near 0 indicate limited recovery. Pixels with negligible initial NDVI loss were excluded.</figcaption>
 
-<b>Landslide Data Integration</b><br/>
+<br/><b>Landslide Data Integration</b><br/>
 To provide broader geophysical context, I incorporated 2021 mapped landslide polygons from the USGS Columbia River Gorge dataset (Mathews et al., 2025). Twelve mapped landslides fall within the MTBS perimeter.
 
 When these landslides are plotted on the NDVI recovery imagery, a resolution mismatch becomes clear. MODIS NDVI pixels are 250 meters, while most mapped landslides are tens of meters across. Because of this, individual slope failures do not produce detectable NDVI signatures at MODIS scale. Even so, including the landslide data highlights the difference in spatial scale between geomorphic processes and coarse-resolution vegetation monitoring.
@@ -59,7 +58,7 @@ When these landslides are plotted on the NDVI recovery imagery, a resolution mis
   <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
     <b>Figure 5:</b>Mapped landslides, shown in pink, plotted over NDVI recovery to illustrate the resolution mismatch between landslide footprints and MODIS pixel size.</figcaption>
 
-<b>Interpretation</b><br/>
+<br/><b>Interpretation</b><br/>
 The Eagle Creek Fire produced a measurable NDVI decline followed by gradual, spatially variable recovery. Seven years after the fire, regrowth is evident across much of the landscape but NDVI has not fully returned to pre-fire levels. The comparison region, although not an exact ecological match, remained stable throughout the study period and provides a consistent baseline for interpreting change inside the burn perimeter.
 
 The addition of landslide data illustrates the challenge of combining fine-scale geotechnical information with coarse-resolution remote sensing products, and it highlights the importance of considering spatial scale when interpreting post-fire landscape processes.
