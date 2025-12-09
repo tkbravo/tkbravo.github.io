@@ -7,8 +7,8 @@
 
 <b>Background</b><br/>
 Two spatial datasets define the study area:
-<ul><li>Burned Region: The Monitoring Trends in Burn Severity (MTBS) 2017 Eagle Creek Fire perimeter.</li>
-<li>Comparison Region: A 3 km outside ring clipped from the Mark O. Hatfield Wilderness.</li></ul>
+<ul><li>Burned Region: The Monitoring Trends in Burn Severity (MTBS) 2017 Eagle Creek Fire perimeter</li>
+<li>Comparison Region: A 3 km outside ring clipped from the Mark O. Hatfield Wilderness</li></ul>
 
 NDVI is widely used for vegetation monitoring because it reflects canopy density, greenness, and photosynthetic activity. NDVI provides a consistent measure of vegetation greenness and canopy characteristics (Tucker, 1979), which makes it useful for evaluating changes in dense conifer forest and nearby mixed-vegetation areas.
 
@@ -23,8 +23,8 @@ How much vegetation was lost during the Eagle Creek Fire, and how has NDVI chang
 <li>Comparison Region: 3 km outside ring intersected with the Hatfield Wilderness polygon.</li></ul>
 
 For each year, NDVI values were clipped to both regions, and mean NDVI was calculated to construct a time series. Additional spatial products include:
-<ul><li>NDVI difference for 2018 minus 2016, which represents immediate post-fire vegetation loss.</li>
-<li>NDVI difference for 2024 minus 2016, which reflects longer-term recovery.</li></ul>
+<ul><li>NDVI difference for 2018 minus 2016, which represents immediate post-fire vegetation loss</li>
+<li>NDVI difference for 2024 minus 2016, which reflects longer-term recovery</li></ul>
 To measure recovery within the burned area, I computed a pixel-wise recovery ratio:
 
 <img src="img/fig7.png">
