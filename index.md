@@ -1,4 +1,77 @@
 <h2 style="color:#6f1802;">Portfolio</h2>
+<h3 style="margin-bottom:0;">Vegetation Loss and Recovery Following the Eagle Creek Fire</h3>
+<p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
+  9 December 2025
+</p>
+<p><img src="img/eaglecreek.png" alt="Fire" title="Eagle Creek" style="float:left; width:200px; height:auto; margin:0 12px 6px 0; border-radius:4px;">In September 2017, the Eagle Creek Fire burned nearly 50,000 acres in the Columbia River Gorge. To evaluate how vegetation changed in response, I used satellite-derived NDVI (Normalized Difference Vegetation Index) to quantify the immediate reduction in greenness and the subsequent recovery over the seven years following the fire. By comparing NDVI inside the burn perimeter to a nearby unburned portion of the Mark O. Hatfield Wilderness, this analysis provides a consistent framework for assessing both the initial vegetation loss and the rate of post-fire recovery.</p>
+
+<b>Background</b><br/>
+Two spatial datasets define the study area:
+*Burned Region: The Monitoring Trends in Burn Severity (MTBS) 2017 Eagle Creek Fire perimeter.
+*Comparison Region: A 3 km outside ring clipped from the Mark O. Hatfield Wilderness.
+
+NDVI is widely used for vegetation monitoring because it reflects canopy density, greenness, and photosynthetic activity. NDVI provides a consistent measure of vegetation greenness and canopy characteristics (Tucker, 1979), which makes it useful for evaluating changes in dense conifer forest and nearby mixed-vegetation areas.
+
+<img src="img/fig0.jpg" alt="Columbia Gorge" title="Columbia Gorge" style="float:right; width:200px; height:auto; margin:0 12px 6px 0; border-radius:4px;">Although intended as a comparison region, the 3 km ring is not an ecological duplicate of the interior burn area, and these differences help explain pre-fire NDVI patterns. The MTBS burn area consists of steep canyon walls that are dominated by dense conifers. The surrounding ring includes mixed forest, shrubland, and ridge-top terrain.
+<b>Why Pre-fire NDVI Is Higher Inside the Burn Perimeter</b><br/>
+Before the fire, NDVI inside the MTBS perimeter was consistently higher, around 0.86 to 0.88, than in the outside ring, which averaged around 0.79 to 0.81. This pattern is expected because dense conifer canopy maintains high late-summer NDVI, shaded terrain retains strong greenness, and the outside ring includes vegetation types that tend to show lower August NDVI values.
+
+These differences confirm that pre-fire NDVI variation reflects underlying ecology rather than artifacts of processing.
+<b>Research Question</b><br/>
+How much vegetation was lost during the Eagle Creek Fire, and how has NDVI changed inside the burn perimeter relative to the surrounding Hatfield Wilderness from 2014 to 2024?
+
+<b>Data and Methods</b><br/>
+*NDVI Data: MODIS MOD13Q1.061, 250 meter resolution, August composites for 2014 to 2024.
+*Burn Perimeter: MTBS 2017 Eagle Creek Fire boundary.
+*Comparison Region: 3 km outside ring intersected with the Hatfield Wilderness polygon.
+
+For each year, NDVI values were clipped to both regions, and mean NDVI was calculated to construct a time series. Additional spatial products include:
+*NDVI difference for 2018 minus 2016, which represents immediate post-fire vegetation loss.
+*NDVI difference for 2024 minus 2016, which reflects longer-term recovery.
+To measure recovery within the burned area, I computed a pixel-wise recovery ratio:
+<img src="img/fig7.png">
+A ratio near 1 represents NDVI returning to pre-fire levels and a ratio near 0 represents limited recovery.
+
+<b>Results</b><br/>
+<img src="img/fig1.png">
+  <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
+    <b>Figure 1 Time Series for 2014 to 2024</b> Before the fire, from 2014 to 2016, NDVI was higher inside the MTBS perimeter because of dense conifer canopy. In 2018, NDVI dropped sharply inside the perimeter. From 2019 to 2024, NDVI increased gradually. NDVI in the outside region remained nearly constant through the entire period.</figcaption>
+<img src="img/fig2.png">
+  <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
+    <b>Immediate Impact for 2018 minus 2016</b> NDVI within the MTBS perimeter shows a clear reduction between 2016 and 2018, which is consistent with canopy loss. The comparison region remains unchanged, and this demonstrates that observed declines inside the perimeter reflect fire effects rather than regional variation.</figcaption>
+<img src="img/fig3.png">
+  <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
+    <b>Recovery Through 2024 for 2024 minus 2016</b> NDVI inside the burn perimeter increased steadily after 2018. By 2024, regrowth is evident across much of the landscape, although NDVI has not fully returned to pre-fire levels. Recovery is spatially heterogeneous, with drainages and mixed-vegetation patches recovering more quickly than ridge tops and high-severity burn zones.</figcaption>
+<img src="img/fig4.png">
+  <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
+    <b>Recovery Ratio Map</b> NDVI recovery ratio for the Eagle Creek Fire area. Dark green values near 1.0 indicate substantial recovery toward pre-fire greenness. Light yellow values near 0 indicate limited recovery. Pixels with negligible initial NDVI loss were excluded.</figcaption>
+
+<b>Landslide Data Integration</b><br/>
+To provide broader geophysical context, I incorporated 2021 mapped landslide polygons from the USGS Columbia River Gorge dataset (Mathews et al., 2025). Twelve mapped landslides fall within the MTBS perimeter.
+
+When these landslides are plotted on the NDVI recovery imagery, a resolution mismatch becomes clear. MODIS NDVI pixels are 250 meters, while most mapped landslides are tens of meters across. Because of this, individual slope failures do not produce detectable NDVI signatures at MODIS scale. Even so, including the landslide data highlights the difference in spatial scale between geomorphic processes and coarse-resolution vegetation monitoring.
+
+<img src="img/fig5.png">
+  <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
+    Mapped landslides, shown in pink, plotted over NDVI recovery to illustrate the resolution mismatch between landslide footprints and MODIS pixel size.</figcaption>
+
+<b>Interpretation</b><br/>
+The Eagle Creek Fire produced a measurable NDVI decline followed by gradual, spatially variable recovery. Seven years after the fire, regrowth is evident across much of the landscape but NDVI has not fully returned to pre-fire levels. The comparison region, although not an exact ecological match, remained stable throughout the study period and provides a consistent baseline for interpreting change inside the burn perimeter.
+
+The addition of landslide data illustrates the challenge of combining fine-scale geotechnical information with coarse-resolution remote sensing products, and it highlights the importance of considering spatial scale when interpreting post-fire landscape processes.
+
+<b>References</b><br/>
+Tucker, C. J. (1979). Red and photographic infrared linear combinations for monitoring vegetation. Remote Sensing of Environment, 8, 127 to 150.
+
+MTBS Project, USFS and USGS. 2017. Eagle Creek Fire, Burn Severity and Perimeter. <a href="https://mtbs.gov" target="_blank">https://mtbs.gov</a>
+
+NASA LP DAAC. MOD13Q1.061 MODIS Terra Vegetation Indices. <a href="https://lpdaac.usgs.gov" target="_blank">https://lpdaac.usgs.gov</a>
+
+OpenStreetMap contributors. 2025. Mark O. Hatfield Wilderness, map. <a href="https://www.openstreetmap.org/relation/6087908" target="_blank">https://www.openstreetmap.org/relation/6087908</a>
+
+Mathews, N. W., Leshchinsky, B. A., Sousa, D., Sanders, M., Presler, P., and Roering, J. J. (2025). Hydrological, geotechnical, and landslide mapping data from the Columbia River Gorge, Oregon to support physics-based modeling of postfire shallow landslides. U.S. Geological Survey data release. <a href="https://doi.org/10.5066/P1QHQHAM" target="_blank">https://doi.org/10.5066/P1QHQHAM</a>
+    
+***
 <h3 style="margin-bottom:0;">NDVI Seasonality and Variability Across the Gila River Indian Community (2001–2022)</h3>
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   30 November 2025
