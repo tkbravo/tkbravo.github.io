@@ -63,6 +63,8 @@ The Eagle Creek Fire produced a measurable NDVI decline followed by gradual, spa
 
 The addition of landslide data illustrates the challenge of combining fine-scale geotechnical information with coarse-resolution remote sensing products, and it highlights the importance of considering spatial scale when interpreting post-fire landscape processes.
 
+View the full analysis
+
 <b>References</b><br/>
 Tucker, C. J. (1979). Red and photographic infrared linear combinations for monitoring vegetation. Remote Sensing of Environment, 8, 127 to 150.
 MTBS Project, USFS and USGS. 2017. Eagle Creek Fire, Burn Severity and Perimeter. <a href="https://mtbs.gov" target="_blank">https://mtbs.gov</a>
