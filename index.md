@@ -3,7 +3,7 @@
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   9 December 2025
 </p>
-<p><img src="img/eaglecreek.png" alt="Fire" title="Eagle Creek" style="float:left; width:200px; height:auto; margin:0 12px 6px 0; border-radius:4px;">In September 2017, the Eagle Creek Fire burned nearly 50,000 acres in the Columbia River Gorge. To evaluate how vegetation changed in response, I used satellite-derived NDVI (Normalized Difference Vegetation Index) to quantify the immediate reduction in greenness and the subsequent recovery over the seven years following the fire. By comparing NDVI inside the burn perimeter to a nearby unburned portion of the Mark O. Hatfield Wilderness, this analysis provides a consistent framework for assessing both the initial vegetation loss and the rate of post-fire recovery.</p>
+<p><img src="img/eaglecreek.png" alt="Eagle Creek Fire" title="Eagle Creek Fire 9/5/2017 as seen from Stevenson, WA" style="float:left; width:200px; height:auto; margin:0 12px 6px 0; border-radius:4px;">In September 2017, the Eagle Creek Fire burned nearly 50,000 acres in the Columbia River Gorge. To evaluate how vegetation changed in response, I used satellite-derived NDVI (Normalized Difference Vegetation Index) to quantify the immediate reduction in greenness and the subsequent recovery over the seven years following the fire. By comparing NDVI inside the burn perimeter to a nearby unburned portion of the Mark O. Hatfield Wilderness, this analysis provides a consistent framework for assessing both the initial vegetation loss and the rate of post-fire recovery.</p>
 
 <b>Background</b><br/>
 Two spatial datasets define the study area:
@@ -12,7 +12,7 @@ Two spatial datasets define the study area:
 
 NDVI is widely used for vegetation monitoring because it reflects canopy density, greenness, and photosynthetic activity. NDVI provides a consistent measure of vegetation greenness and canopy characteristics (Tucker, 1979), which makes it useful for evaluating changes in dense conifer forest and nearby mixed-vegetation areas.
 
-<img src="img/fig0.jpg" alt="Columbia Gorge" title="Columbia Gorge" style="float:right; width:200px; height:auto; margin:0 12px 6px 0; border-radius:4px;">Although intended as a comparison region, the 3 km ring is not an ecological duplicate of the interior burn area, and these differences help explain pre-fire NDVI patterns. The MTBS burn area consists of steep canyon walls that are dominated by dense conifers. The surrounding ring includes mixed forest, shrubland, and ridge-top terrain.
+<img src="img/fig0.jpg" alt="Eagle Creek Fire Boundary" title="Eagle Creek Fire Boundary as seen from the Columbia River Gorge, USFS" style="float:right; width:200px; height:auto; margin:0 12px 6px 0; border-radius:4px;">Although intended as a comparison region, the 3 km ring is not an ecological duplicate of the interior burn area, and these differences help explain pre-fire NDVI patterns. The MTBS burn area consists of steep canyon walls that are dominated by dense conifers. The surrounding ring includes mixed forest, shrubland, and ridge-top terrain.
 
 <b>Research Question</b><br/>
 How much vegetation was lost during the Eagle Creek Fire, and how has NDVI changed inside the burn perimeter relative to the surrounding Hatfield Wilderness from 2014 to 2024?
