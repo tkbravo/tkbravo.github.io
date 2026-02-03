@@ -32,7 +32,7 @@ These environmental metrics were then joined with asthma prevalence values by tr
 
 <b>Results</b><br/>
 <figure style="width:337px; margin:0;">
-  <div style="width:337px; height:337px; overflow:hidden; line-height:0; margin:0;">
+  <div style="width:600px; height:600px; overflow:hidden; line-height:0; margin:0;">
     <iframe
       src="img/portland_asthma_map.html"
       title="Asthma Prevalence Across Portland"
