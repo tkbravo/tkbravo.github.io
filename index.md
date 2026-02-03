@@ -19,9 +19,9 @@ Two datasets define the study area:
 How does vegetation structure vary across Portland census tracts, and how do those patterns align with modeled asthma prevalence?
 
 <b>Data and Methods</b>
-<ul><li>Asthma Data: CDC PLACES tract-level estimates of current adult asthma prevalence (2023).</li>
-<li>Imagery: NAIP multispectral imagery (1 m resolution) accessed through a STAC catalog.</li>
-<li>Vegetation Metric: NDVI was calculated using:</li></ul>
+<ul><li><b>Asthma Data:</b> CDC PLACES tract-level estimates of current adult asthma prevalence (2023).</li>
+<li><b>Imagery:</b> NAIP multispectral imagery (1 m resolution) accessed through a STAC catalog.</li>
+<li><b>Vegetation Metric:</b> NDVI was calculated using:</li></ul>
 <img src="img/fig8.png"><br/>
 Pixels with NDVI > 0.3 were classified as vegetation.<br/>
 For each census tract, imagery was clipped to tract boundaries and vegetation structure metrics were calculated, including:
@@ -31,11 +31,25 @@ For each census tract, imagery was clipped to tract boundaries and vegetation st
 These environmental metrics were then joined with asthma prevalence values by tract.
 
 <b>Results</b><br/>
-<p><iframe src="img/portland_asthma_map.html" width="600" height="600" style="border:none;"></iframe></p>
-  <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
+<div style="width:600px; height:600px; overflow:hidden; line-height:0; margin:0;">
+  <iframe
+    src="img/portland_asthma_map.html"
+    title="Asthma Prevalence Across Portland"
+    style="
+      width:600px;
+      height:600px;
+      border:0;
+      display:block;
+      transform:scale(0.5618);
+      transform-origin:0 0;
+      margin:0;
+    ">
+  </iframe>
+</div>
+  <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
     <b>Figure 1: Asthma Prevalence Across Portland</b> Asthma prevalence (%) by census tract in Portland (CDC PLACES, 2023). Asthma prevalence varies across the city, with clusters of higher values in some north and northeast neighborhoods and lower values in parts of southwest and outer areas.</figcaption><br/><br/>
     
-<p><iframe src="img/portland_asthma_edge_density.html" width="600" height="300" style="border:none;"></iframe></p>
+<p><iframe src="img/portland_asthma_edge_density.html" width="600" height="350" style="border:none;"></iframe></p>
   <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
     <b>Figure 2: Vegetation Edge Density</b> Vegetation edge density by census tract derived from NAIP NDVI. Higher values indicate more fragmented vegetation. Tracts with large parks, forested hillsides, or continuous canopy tend to have lower edge density, while densely built neighborhoods show higher fragmentation.</figcaption><br/>
     
