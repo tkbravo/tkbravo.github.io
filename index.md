@@ -5,7 +5,7 @@
 </p>
 <p>Urban environments shape health in ways that are often visible from space. To explore how environmental structure relates to respiratory health, I combined high-resolution aerial imagery with census-tract asthma prevalence estimates. Rather than only measuring how much vegetation exists, this analysis focuses on how vegetation is arranged across neighborhoods, specifically, how fragmented or continuous green cover is within each census tract.</p>
 
-<p>By pairing vegetation structure metrics with modeled asthma prevalence from the CDC PLACES dataset, this analysis provides a spatial framework for examining how urban landscape patterns align with respiratory health variation across Portland.</p>
+<p>By pairing vegetation structure metrics with modeled asthma prevalence from the CDC PLACES dataset, this analysis provides a spatial framework for examining how urban landscape patterns align with respiratory health variation across Portland, Oregon.</p>
 <b>Background</b><br/>
 Two datasets define the study area:
 <ul><li>Health Data: CDC PLACES 2023 census-tract estimates of adult asthma prevalence for Multnomah County, Oregon.</li>
@@ -22,7 +22,7 @@ How does vegetation structure vary across Portland census tracts, and how do tho
 <ul><li>Asthma Data: CDC PLACES tract-level estimates of current adult asthma prevalence (2023).</li>
 <li>Imagery: NAIP multispectral imagery (1 m resolution) accessed through a STAC catalog.</li>
 <li>Vegetation Metric: NDVI was calculated using:</li></ul>
-<img src="img/fig7.png">
+<img src="img/fig8.png"><br/>
 Pixels with NDVI > 0.3 were classified as vegetation.<br/>
 For each census tract, imagery was clipped to tract boundaries and vegetation structure metrics were calculated, including:
 <ul><li>Fraction of vegetated pixels</li>
