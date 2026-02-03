@@ -73,7 +73,7 @@ To explore how well vegetation structure predicts asthma prevalence, I trained a
 <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
     <b>Figure 3: Model Error in Predicted Asthma Prevalence</b><br/> Model residuals (predicted − measured asthma prevalence) by census tract. Red tones indicate areas where the model underpredicts asthma prevalence (measured values are higher than predicted), while blue tones indicate areas where the model overpredicts prevalence. Spatial clustering of error suggests that vegetation structure alone does not capture all factors influencing respiratory health patterns across Portland.</figcaption>
 
-View the full analysis
+<a href="https://tkbravo.github.io/img/portland_analysis.html" target="_blank">View the full analysis</a>
 
 <br/><b>Interpretation</b><br/>
 The asthma and vegetation maps do not mirror each other directly, which is expected. Vegetation structure is only one of many factors influencing respiratory health.<br/>
@@ -87,7 +87,7 @@ Portland’s land use history helps frame these observations. Growth management 
 ArcGIS StoryMaps. Regional planning and growth boundary context for Portland and the metro area.
 https://storymaps.arcgis.com/stories/ce2073fccfa148319ef25980b662b08b
 
-Centers for Disease Control and Prevention (CDC). (2023). PLACES: Local Data for Better Health — modeled estimates of adult asthma prevalence by census tract. U.S. Department of Health and Human Services.
+Centers for Disease Control and Prevention (CDC). (2023). PLACES: Local Data for Better Health, modeled estimates of adult asthma prevalence by census tract. U.S. Department of Health and Human Services.
 https://www.cdc.gov/places/
 
 Green City Times. Portland local news and features on urban greening and city life. https://www.greencitytimes.com/portland/
