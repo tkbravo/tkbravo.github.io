@@ -5,7 +5,9 @@
 </p>
 <p>Urban environments shape health in ways that are often visible from space. To explore how environmental structure relates to respiratory health, I combined high-resolution aerial imagery with census-tract asthma prevalence estimates. Rather than measuring only how much vegetation exists, this analysis focuses on how vegetation is arranged across neighborhoods, specifically, how fragmented or continuous green cover is within each census tract.<br/><br/>
 
-By pairing vegetation structure metrics with modeled asthma prevalence from the CDC PLACES dataset, this analysis creates a spatial framework for examining how urban landscape patterns align with respiratory health variation across Portland, Oregon.</p>
+<img src="img/forestpark.png" alt="Forest Park" title="View of Portland from Forest Park" style="float:left; width:200px; height:auto; margin:0 12px 6px 0; border-radius:4px;">Portland, Oregon is widely recognized for its urban forests, parks, and green infrastructure, and is often cited as one of the greener metropolitan areas in the United States. At the same time, Portland’s landscape is highly uneven: large, contiguous forested areas such as Forest Park contrast with dense, redeveloped neighborhoods where vegetation is distributed in smaller, fragmented patches. This variation creates an opportunity to examine how differences in urban vegetation structure relate to modeled respiratory health patterns across the city.<br/><br/> 
+
+By pairing vegetation structure metrics with modeled asthma prevalence from the CDC PLACES dataset, this analysis looks at how urban landscape patterns and respiratory health vary together across Portland.</p>
 <b>Background</b><br/>
 Two datasets define the study area:
 <ul><li><b>Health Data:</b> CDC PLACES 2023 census-tract estimates of adult asthma prevalence for Multnomah County, Oregon.</li>
@@ -45,15 +47,15 @@ These environmental metrics were then joined with asthma prevalence values by tr
     </iframe>
   </div>
 <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
-    <b>Figure 1: Asthma Prevalence Across Portland</b> Asthma prevalence (%) by census tract in Portland (CDC PLACES, 2023). Asthma prevalence varies across the city, with clusters of higher values in some north and northeast neighborhoods and lower values in parts of southwest and outer areas.
+    <b>Figure 1: Asthma Prevalence Across Portland</b> Modeled adult asthma prevalence (%) by census tract in Portland, Oregon (CDC PLACES, 2023). Higher prevalence values cluster in parts of north, northeast, and eastern Portland toward Gresham, while southwest Portland and the Forest Park / West Hills area show lower estimated prevalence.
   </figcaption>
 <br/><br/>
     
 <p><iframe src="img/portland_asthma_edge_density.html" width="600" height="350" style="border:none;"></iframe></p>
   <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
-    <b>Figure 2: Vegetation Edge Density</b> Vegetation edge density by census tract derived from NAIP NDVI. Higher values indicate more fragmented vegetation. Tracts with large parks, forested hillsides, or continuous canopy tend to have lower edge density, while densely built neighborhoods show higher fragmentation.</figcaption><br/>
+    <b>Figure 2: Asthma Prevalence and Vegetation Edge Density</b> Left: Modeled adult asthma prevalence (%) by census tract in Portland (CDC PLACES, 2023). Right: Vegetation edge density derived from NAIP NDVI. Higher edge density values indicate more fragmented vegetation, while lower values reflect larger, more continuous green areas. Continuous canopy areas such as Forest Park and the West Hills appear with low edge density, while more densely built neighborhoods in east Portland and toward Gresham show higher fragmentation.</figcaption><br/>
     
-To explore how well vegetation structure predicts asthma prevalence, I trained a regression model using vegetation metrics and mapped the residual error.
+To explore how well vegetation structure predicts asthma prevalence, I trained a regression model using vegetation metrics as predictors and mapped the residual error.
   <div style="width:600px; height:600px; overflow:hidden; line-height:0; margin:0;">
     <iframe
       src="img/portland_model_error.html"
@@ -68,7 +70,7 @@ To explore how well vegetation structure predicts asthma prevalence, I trained a
     </iframe>
   </div>
 <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
-    <b>Figure 3: Model Error Map</b> Model error (predicted − measured asthma prevalence). Red indicates underprediction; blue indicates overprediction. Error patterns are spatially clustered rather than random, suggesting that vegetation structure alone does not fully explain respiratory health patterns.</figcaption>
+    <b>Figure 3: Model Error in Predicted Asthma Prevalence</b> Model residuals (predicted − measured asthma prevalence) by census tract. Red tones indicate areas where the model underpredicts asthma prevalence (measured values are higher than predicted), while blue tones indicate areas where the model overpredicts prevalence. Spatial clustering of error suggests that vegetation structure alone does not capture all factors influencing respiratory health patterns across Portland.</figcaption>
 
 <br/><b>Interpretation</b><br/>
 The asthma and vegetation maps do not mirror each other directly, which is expected. Vegetation structure is only one of many factors influencing respiratory health.<br/>
@@ -76,7 +78,7 @@ However, several patterns stand out:
 <ul><li>Tracts with more fragmented vegetation often align with denser urban areas</li>
 <li>Areas with larger, more continuous vegetation patches sometimes show lower asthma prevalence</li>
 <li>Model error clusters geographically, indicating that additional variables, such as traffic exposure, housing conditions, or socioeconomic factors, likely play important roles</li></ul><br/>
-Portland’s land use history helps frame these observations. Growth management policies have concentrated development inside the metro area, encouraging redevelopment and infill. This reshaping of neighborhood form can increase vegetation fragmentation even when green infrastructure is present. Meanwhile, local discussions about tree canopy change and green stormwater systems show that urban vegetation is both dynamic and unevenly distributed.<br/>
+Portland’s land use history helps frame these observations. Growth management policies have concentrated development inside the metro area, encouraging redevelopment and infill. This reshaping of neighborhood form can increase vegetation fragmentation even when green infrastructure investments are present. Meanwhile, local discussions about tree canopy change and green stormwater systems show that urban vegetation is both dynamic and unevenly distributed.<br/>
 
 <b>References</b><br/>
 Centers for Disease Control and Prevention (CDC). (2023). PLACES: Local Data for Better Health — modeled estimates of adult asthma prevalence by census tract. U.S. Department of Health and Human Services.
@@ -97,6 +99,8 @@ https://www.kgw.com/article/news/local/gresham-lumberjack-cut-down-trees-springw
 
 ArcGIS StoryMaps. Regional planning and growth boundary context for Portland and the metro area.
 https://storymaps.arcgis.com/stories/ce2073fccfa148319ef25980b662b08b
+
+Green City Times. Portland local news and features on urban greening and city life. https://www.greencitytimes.com/portland/
 
 ***
 <h3 style="margin-bottom:0;">Vegetation Loss and Recovery Following the Eagle Creek Fire</h3>
