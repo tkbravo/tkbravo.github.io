@@ -3,7 +3,7 @@
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   2 February 2026
 </p>
-<p>Urban environments shape health in ways that are often visible from space. To explore how environmental structure relates to respiratory health, I combined high-resolution aerial imagery with census-tract asthma prevalence estimates. Rather than measuring only how much vegetation exists, this analysis focuses on how vegetation is arranged across neighborhoods, specifically, how fragmented or continuous green cover is within each census tract.<br/>
+<p>Urban environments shape health in ways that are often visible from space. To explore how environmental structure relates to respiratory health, I combined high-resolution aerial imagery with census-tract asthma prevalence estimates. Rather than measuring only how much vegetation exists, this analysis focuses on how vegetation is arranged across neighborhoods, specifically, how fragmented or continuous green cover is within each census tract.<br/><br/>
 
 By pairing vegetation structure metrics with modeled asthma prevalence from the CDC PLACES dataset, this analysis creates a spatial framework for examining how urban landscape patterns align with respiratory health variation across Portland, Oregon.</p>
 <b>Background</b><br/>
@@ -21,13 +21,13 @@ How does vegetation structure vary across Portland census tracts, and how do tho
 <b>Data and Methods</b>
 <ul><li><b>Asthma Data:</b> CDC PLACES tract-level estimates of current adult asthma prevalence (2023).</li>
 <li><b>Imagery:</b> NAIP multispectral imagery (1 m resolution) accessed through a STAC catalog.</li>
-<li><b>Vegetation Metric:</b> NDVI was calculated using:</li></ul>
+<li><b>Vegetation Metric:</b> NDVI was calculated from NAIP near-infrared and red bands using the standard normalized difference formula:</li></ul>
 <img src="img/fig8.png"><br/>
-Pixels with NDVI > 0.3 were classified as vegetation.<br/>
+Pixels with NDVI > 0.3 were classified as vegetation.<br/><br/>
 For each census tract, imagery was clipped to tract boundaries and vegetation structure metrics were calculated, including:
 <ul><li>Fraction of vegetated pixels</li>
 <li>Mean vegetation patch size</li>
-<li>Vegetation edge density (amount of boundary between vegetation and non-vegetation)</li></ul><br/>
+<li>Vegetation edge density (amount of boundary between vegetation and non-vegetation)</li></ul>
 These environmental metrics were then joined with asthma prevalence values by tract.
 
 <b>Results</b><br/>
@@ -43,11 +43,12 @@ These environmental metrics were then joined with asthma prevalence values by tr
         margin:0;
       ">
     </iframe>
-  </div>
-
-  <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
+      <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
     <b>Figure 1: Asthma Prevalence Across Portland</b> Asthma prevalence (%) by census tract in Portland (CDC PLACES, 2023). Asthma prevalence varies across the city, with clusters of higher values in some north and northeast neighborhoods and lower values in parts of southwest and outer areas.
   </figcaption>
+  </div>
+
+
 <br/><br/>
     
 <p><iframe src="img/portland_asthma_edge_density.html" width="600" height="350" style="border:none;"></iframe></p>
