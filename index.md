@@ -31,7 +31,6 @@ For each census tract, imagery was clipped to tract boundaries and vegetation st
 These environmental metrics were then joined with asthma prevalence values by tract.
 
 <b>Results</b><br/>
-<figure style="width:337px; margin:0;">
   <div style="width:600px; height:600px; overflow:hidden; line-height:0; margin:0;">
     <iframe
       src="img/portland_asthma_map.html"
@@ -41,8 +40,6 @@ These environmental metrics were then joined with asthma prevalence values by tr
         height:600px;
         border:0;
         display:block;
-        transform:scale(0.5618);
-        transform-origin:0 0;
         margin:0;
       ">
     </iframe>
@@ -51,7 +48,7 @@ These environmental metrics were then joined with asthma prevalence values by tr
   <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
     <b>Figure 1: Asthma Prevalence Across Portland</b> Asthma prevalence (%) by census tract in Portland (CDC PLACES, 2023). Asthma prevalence varies across the city, with clusters of higher values in some north and northeast neighborhoods and lower values in parts of southwest and outer areas.
   </figcaption>
-</figure><br/><br/>
+<br/><br/>
     
 <p><iframe src="img/portland_asthma_edge_density.html" width="600" height="350" style="border:none;"></iframe></p>
   <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
