@@ -31,14 +31,13 @@ For each census tract, imagery was clipped to tract boundaries and vegetation st
 These environmental metrics were then joined with asthma prevalence values by tract.
 
 <b>Results</b><br/>
-Asthma Prevalence Across Portland
 <p><iframe src="img/portland_asthma_map.html" width="500" height="650"></iframe></p>
   <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
     <b>Figure 1: Asthma Prevalence Across Portland</b> Asthma prevalence (%) by census tract in Portland (CDC PLACES, 2023). Asthma prevalence varies across the city, with clusters of higher values in some north and northeast neighborhoods and lower values in parts of southwest and outer areas.</figcaption>
     
 <p><iframe src="img/portland_asthma_edge_density.html" width="500" height="650"></iframe></p>
   <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
-    <b>Figure 1: Vegetation Edge Density</b> Vegetation edge density by census tract derived from NAIP NDVI. Higher values indicate more fragmented vegetation. Vegetation structure shows strong spatial contrasts. Tracts with large parks, forested hillsides, or continuous canopy tend to have lower edge density. Densely built neighborhoods show higher fragmentation, where vegetation appears in smaller patches along streets, yards, and mixed land uses.</figcaption>
+    <b>Figure 1: Vegetation Edge Density</b> Vegetation edge density by census tract derived from NAIP NDVI. Higher values indicate more fragmented vegetation. Vegetation structure shows strong spatial contrasts. Tracts with large parks, forested hillsides, or continuous canopy tend to have lower edge density. Densely built neighborhoods show higher fragmentation, where vegetation appears in smaller patches along streets, yards, and mixed land uses.</figcaption><br/>
     
 To explore how well vegetation structure predicts asthma prevalence, I trained a regression model using vegetation metrics and mapped the residual error.
 <p><iframe src="img/portland_model_error.html" width="500" height="650"></iframe></p>
