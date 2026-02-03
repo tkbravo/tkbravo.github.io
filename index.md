@@ -33,7 +33,7 @@ For each census tract, imagery was clipped to tract boundaries and vegetation st
 These environmental metrics were then joined with asthma prevalence values by tract.
 
 <b>Results</b><br/>
-  <div style="width:600px; height:600px; overflow:hidden; line-height:0; margin:0;">
+  <div style="width:600px; height:500px; overflow:hidden; line-height:0; margin:0;">
     <iframe
       src="img/portland_asthma_map.html"
       title="Asthma Prevalence Across Portland"
@@ -47,13 +47,14 @@ These environmental metrics were then joined with asthma prevalence values by tr
     </iframe>
   </div>
 <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
-    <b>Figure 1: Asthma Prevalence Across Portland</b> Modeled adult asthma prevalence (%) by census tract in Portland, Oregon (CDC PLACES, 2023). Higher prevalence values cluster in parts of north, northeast, and eastern Portland toward Gresham, while southwest Portland and the Forest Park / West Hills area show lower estimated prevalence.
+    <b>Figure 1: Asthma Prevalence Across Portland</b><br/> Modeled adult asthma prevalence (%) by census tract in Portland, Oregon (CDC PLACES, 2023). Higher prevalence values cluster in parts of north, northeast, and eastern Portland toward Gresham, while southwest Portland and the Forest Park / West Hills area show lower estimated prevalence.
   </figcaption>
 <br/><br/>
     
-<p><iframe src="img/portland_asthma_edge_density.html" width="600" height="350" style="border:none;"></iframe></p>
+<div style="width:600px; height:340px; overflow:hidden; line-height:0; margin:0;">
+<iframe src="img/portland_asthma_edge_density.html" width="600" height="350" style="border:none;"></iframe></div>
   <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
-    <b>Figure 2: Asthma Prevalence and Vegetation Edge Density</b> Left: Modeled adult asthma prevalence (%) by census tract in Portland (CDC PLACES, 2023). Right: Vegetation edge density derived from NAIP NDVI. Higher edge density values indicate more fragmented vegetation, while lower values reflect larger, more continuous green areas. Continuous canopy areas such as Forest Park and the West Hills appear with low edge density, while more densely built neighborhoods in east Portland and toward Gresham show higher fragmentation.</figcaption><br/>
+    <b>Figure 2: Asthma Prevalence and Vegetation Edge Density</b><br/> Left: Modeled adult asthma prevalence (%) by census tract in Portland (CDC PLACES, 2023). Right: Vegetation edge density derived from NAIP NDVI. Higher edge density values indicate more fragmented vegetation, while lower values reflect larger, more continuous green areas. Continuous canopy areas such as Forest Park and the West Hills appear with low edge density, while more densely built neighborhoods in east Portland and toward Gresham show higher fragmentation.</figcaption><br/>
     
 To explore how well vegetation structure predicts asthma prevalence, I trained a regression model using vegetation metrics as predictors and mapped the residual error.
   <div style="width:600px; height:400px; overflow:hidden; line-height:0; margin:0;">
@@ -70,7 +71,7 @@ To explore how well vegetation structure predicts asthma prevalence, I trained a
     </iframe>
   </div>
 <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
-    <b>Figure 3: Model Error in Predicted Asthma Prevalence</b> Model residuals (predicted − measured asthma prevalence) by census tract. Red tones indicate areas where the model underpredicts asthma prevalence (measured values are higher than predicted), while blue tones indicate areas where the model overpredicts prevalence. Spatial clustering of error suggests that vegetation structure alone does not capture all factors influencing respiratory health patterns across Portland.</figcaption>
+    <b>Figure 3: Model Error in Predicted Asthma Prevalence</b><br/> Model residuals (predicted − measured asthma prevalence) by census tract. Red tones indicate areas where the model underpredicts asthma prevalence (measured values are higher than predicted), while blue tones indicate areas where the model overpredicts prevalence. Spatial clustering of error suggests that vegetation structure alone does not capture all factors influencing respiratory health patterns across Portland.</figcaption>
 
 <br/><b>Interpretation</b><br/>
 The asthma and vegetation maps do not mirror each other directly, which is expected. Vegetation structure is only one of many factors influencing respiratory health.<br/>
