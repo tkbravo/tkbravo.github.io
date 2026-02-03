@@ -1,4 +1,13 @@
 <h2 style="color:#6f1802;">Portfolio</h2>
+<h3 style="margin-bottom:0;">Using NAIP Imagery to Model Urban Vegetation and Health Outcomes</h3>
+<p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
+  2 February 2026
+</p>
+<p><iframe src="img/portland_asthma_map.html" width="700" height="650"></iframe></p>
+<p><iframe src="img/portland_asthma_edge_density.html" width="700" height="650"></iframe></p>
+<p><iframe src="img/portland_model_error.html" width="700" height="650"></iframe></p>
+
+***
 <h3 style="margin-bottom:0;">Vegetation Loss and Recovery Following the Eagle Creek Fire</h3>
 <p style="margin-top:2px; font-size:0.9em; font-weight:normal; color:#777;">
   9 December 2025
