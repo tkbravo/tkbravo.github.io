@@ -43,12 +43,10 @@ These environmental metrics were then joined with asthma prevalence values by tr
         margin:0;
       ">
     </iframe>
-      <figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
+  </div>
+<figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
     <b>Figure 1: Asthma Prevalence Across Portland</b> Asthma prevalence (%) by census tract in Portland (CDC PLACES, 2023). Asthma prevalence varies across the city, with clusters of higher values in some north and northeast neighborhoods and lower values in parts of southwest and outer areas.
   </figcaption>
-  </div>
-
-
 <br/><br/>
     
 <p><iframe src="img/portland_asthma_edge_density.html" width="600" height="350" style="border:none;"></iframe></p>
@@ -56,8 +54,20 @@ These environmental metrics were then joined with asthma prevalence values by tr
     <b>Figure 2: Vegetation Edge Density</b> Vegetation edge density by census tract derived from NAIP NDVI. Higher values indicate more fragmented vegetation. Tracts with large parks, forested hillsides, or continuous canopy tend to have lower edge density, while densely built neighborhoods show higher fragmentation.</figcaption><br/>
     
 To explore how well vegetation structure predicts asthma prevalence, I trained a regression model using vegetation metrics and mapped the residual error.
-<p><iframe src="img/portland_model_error.html" width="600" height="600" style="border:none;"></iframe></p>
-  <figcaption style="font-size:0.9em; color:#555; margin:0px 0 0 0;">
+  <div style="width:600px; height:600px; overflow:hidden; line-height:0; margin:0;">
+    <iframe
+      src="img/portland_model_error.html"
+      title="Model Error Map"
+      style="
+        width:600px;
+        height:600px;
+        border:0;
+        display:block;
+        margin:0;
+      ">
+    </iframe>
+  </div>
+<figcaption style="font-size:0.9em; color:#555; margin:6px 0 0 0;">
     <b>Figure 3: Model Error Map</b> Model error (predicted − measured asthma prevalence). Red indicates underprediction; blue indicates overprediction. Error patterns are spatially clustered rather than random, suggesting that vegetation structure alone does not fully explain respiratory health patterns.</figcaption>
 
 <br/><b>Interpretation</b><br/>
