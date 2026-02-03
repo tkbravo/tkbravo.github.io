@@ -56,7 +56,7 @@ These environmental metrics were then joined with asthma prevalence values by tr
     <b>Figure 2: Asthma Prevalence and Vegetation Edge Density</b> Left: Modeled adult asthma prevalence (%) by census tract in Portland (CDC PLACES, 2023). Right: Vegetation edge density derived from NAIP NDVI. Higher edge density values indicate more fragmented vegetation, while lower values reflect larger, more continuous green areas. Continuous canopy areas such as Forest Park and the West Hills appear with low edge density, while more densely built neighborhoods in east Portland and toward Gresham show higher fragmentation.</figcaption><br/>
     
 To explore how well vegetation structure predicts asthma prevalence, I trained a regression model using vegetation metrics as predictors and mapped the residual error.
-  <div style="width:600px; height:600px; overflow:hidden; line-height:0; margin:0;">
+  <div style="width:600px; height:400px; overflow:hidden; line-height:0; margin:0;">
     <iframe
       src="img/portland_model_error.html"
       title="Model Error Map"
@@ -77,30 +77,30 @@ The asthma and vegetation maps do not mirror each other directly, which is expec
 However, several patterns stand out:
 <ul><li>Tracts with more fragmented vegetation often align with denser urban areas</li>
 <li>Areas with larger, more continuous vegetation patches sometimes show lower asthma prevalence</li>
-<li>Model error clusters geographically, indicating that additional variables, such as traffic exposure, housing conditions, or socioeconomic factors, likely play important roles</li></ul><br/>
+<li>Model error clusters geographically, indicating that additional variables, such as traffic exposure, housing conditions, or socioeconomic factors, likely play important roles</li></ul>
 Portland’s land use history helps frame these observations. Growth management policies have concentrated development inside the metro area, encouraging redevelopment and infill. This reshaping of neighborhood form can increase vegetation fragmentation even when green infrastructure investments are present. Meanwhile, local discussions about tree canopy change and green stormwater systems show that urban vegetation is both dynamic and unevenly distributed.<br/>
 
 <b>References</b><br/>
+ArcGIS StoryMaps. Regional planning and growth boundary context for Portland and the metro area.
+https://storymaps.arcgis.com/stories/ce2073fccfa148319ef25980b662b08b
+
 Centers for Disease Control and Prevention (CDC). (2023). PLACES: Local Data for Better Health — modeled estimates of adult asthma prevalence by census tract. U.S. Department of Health and Human Services.
 https://www.cdc.gov/places/
 
-U.S. Department of Agriculture Farm Service Agency & U.S. Geological Survey. (n.d.). National Agriculture Imagery Program (NAIP). High-resolution aerial multispectral imagery.
-
-Tucker, C. J. (1979). Red and photographic infrared linear combinations for monitoring vegetation. Remote Sensing of Environment, 8, 127–150.
-
-Wilkes East Neighborhood Association. Community planning and development context in East Portland.
-https://wilkeseastna.org/node/3713
-
-Oregon Public Broadcasting. (2025, August 27). Think Out Loud: Study says Portland is a national leader in green stormwater infrastructure.
-https://www.opb.org/article/2025/08/27/think-out-loud-study-says-portland-national-leader-green-stormwater-infrastructure/
+Green City Times. Portland local news and features on urban greening and city life. https://www.greencitytimes.com/portland/
 
 KGW News. Tree canopy change and urban vegetation along the Springwater Corridor.
 https://www.kgw.com/article/news/local/gresham-lumberjack-cut-down-trees-springwater-trail/283-95cb20a3-a10a-40a1-9696-3e757ca3cb7d
 
-ArcGIS StoryMaps. Regional planning and growth boundary context for Portland and the metro area.
-https://storymaps.arcgis.com/stories/ce2073fccfa148319ef25980b662b08b
+Oregon Public Broadcasting. (2025, August 27). Think Out Loud: Study says Portland is a national leader in green stormwater infrastructure.
+https://www.opb.org/article/2025/08/27/think-out-loud-study-says-portland-national-leader-green-stormwater-infrastructure/
 
-Green City Times. Portland local news and features on urban greening and city life. https://www.greencitytimes.com/portland/
+Tucker, C. J. (1979). Red and photographic infrared linear combinations for monitoring vegetation. Remote Sensing of Environment, 8, 127–150.
+
+U.S. Department of Agriculture Farm Service Agency & U.S. Geological Survey. (n.d.). National Agriculture Imagery Program (NAIP). High-resolution aerial multispectral imagery.
+
+Wilkes East Neighborhood Association. Community planning and development context in East Portland.
+https://wilkeseastna.org/node/3713
 
 ***
 <h3 style="margin-bottom:0;">Vegetation Loss and Recovery Following the Eagle Creek Fire</h3>
